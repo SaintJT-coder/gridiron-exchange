@@ -47,3 +47,38 @@ reviewing the project's existing rules first.
 - https://firebase.google.com/docs/web/setup
 - https://firebase.google.com/docs/firestore/locations
 - https://firebase.google.com/docs/functions/locations
+
+## Auth/account implementation update
+Email/password registration, sign-in, reset email, Google popup sign-in and
+sign-out are implemented. The account view subscribes only after the trusted
+ensureSeasonAccount callable succeeds. Failed setup shows an error and Retry,
+never a fabricated saved balance. Sample trading stays in an explicitly labeled
+separate demo. Shared markets and trades are not implemented yet.
+
+The callable initializes the fixed 2026 season account transactionally from the
+verified UID and accepts no economic inputs. Repeated calls do not reset cash.
+Rules permit an owner to read their account and deny every client write.
+Production App Check enforcement is enabled on the callable; emulator enforcement
+is disabled. No backend/rules deployment has occurred.
+
+### Additional console setup before production testing
+1. Firebase Console > App Check > register the Web app with reCAPTCHA v3.
+   Configure saintjt-coder.github.io as an allowed reCAPTCHA domain.
+2. Put the public site key in VITE_FIREBASE_APP_CHECK_SITE_KEY in the build
+   environment. The reCAPTCHA secret belongs in the App Check console, not Git.
+3. Enable Blaze before Functions deployment. Backend deployment requires an
+   authenticated Firebase CLI environment; this chat has no Firebase admin session.
+4. After review, deploy the function and scoped Firestore rules together before
+   deploying the frontend. Do not merge main as part of this increment.
+5. Test two browser sessions and repeat login. Confirm one account document per
+   UID, exactly $10,000 initial cash, and no reset after refresh.
+
+### Local validation
+Install root and functions dependencies with npm ci in each folder. Start Auth,
+Firestore and Functions emulators using --project demo-gridiron-exchange, copy
+.env.example to .env.local and run npm run dev. Production App Check is not needed
+for this local demo project. Google provider production behavior still requires
+real browser testing; email/password is available independently.
+
+Bootstrap unit tests exercise repeated/concurrent calls through a transaction
+model; they do not replace Firebase Emulator integration or deployed rules tests.

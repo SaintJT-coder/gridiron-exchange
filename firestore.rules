@@ -1,10 +1,10 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Bootstrap only. Keep the database closed until scoped rules and emulator
-    // coverage land alongside authenticated application data access.
-    match /{document=**} {
-      allow read, write: if false;
+    match /seasons/{season}/accounts/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
     }
+    match /{document=**} { allow read, write: if false; }
   }
 }
