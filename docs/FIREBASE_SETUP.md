@@ -62,10 +62,10 @@ Production App Check enforcement is enabled on the callable; emulator enforcemen
 is disabled. No backend/rules deployment has occurred.
 
 ### Additional console setup before production testing
-1. Firebase Console > App Check > register the Web app with reCAPTCHA v3.
+1. Firebase Console > App Check > register the Web app with reCAPTCHA Enterprise (score-based).
    Configure saintjt-coder.github.io as an allowed reCAPTCHA domain.
 2. Put the public site key in VITE_FIREBASE_APP_CHECK_SITE_KEY in the build
-   environment. The reCAPTCHA secret belongs in the App Check console, not Git.
+   environment. Paste the generated public site key into App Check's Enterprise site key field; the domain belongs in the key's domain list in Google Cloud Fraud Defense. Enterprise setup does not use the Classic secret-key field.
 3. Enable Blaze before Functions deployment. Backend deployment requires an
    authenticated Firebase CLI environment; this chat has no Firebase admin session.
 4. After review, deploy the function and scoped Firestore rules together before
