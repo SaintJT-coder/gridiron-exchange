@@ -1,5 +1,6 @@
 import React from 'react';
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
+import { PlayerDetails } from './components/PlayerDetails.jsx';
 import { AppShell } from './components/AppShell.jsx';
 import { Dashboard } from './pages/Dashboard.jsx';
 import { Portfolio } from './pages/Portfolio.jsx';
@@ -7,6 +8,11 @@ import { Account } from './pages/Account.jsx';
 import { players as seedPlayers } from './data/players.js';
 
 export default function App() {
+  const [selectedId, setSelectedId] = useState(null);
+  const [quotes, setQuotes] = useState({});
+  const onQuote = useCallback((id, quote) => setQuotes(old => ({ ...old, [id]: quote })), []);
+  const closeDetails = useCallback(() => setSelectedId(null), []);
+  const marketPlayers = useMemo(() => seedPlayers.map(p => quotes[p.id] ? { ...p, price: quotes[p.id].price, change: quotes[p.id].change, priced: true } : p), [quotes]);
   const [tab, setTab] = useState('Dashboard');
   const [cash, setCash] = useState(7519.50);
   const [holdings, setHoldings] = useState([
@@ -23,18 +29,18 @@ export default function App() {
     { date: 'Apr 24', playerId: 'saquon-barkley', action: 'Sold', shares: 5, price: 94.32 },
   ]);
   const [watchlist, setWatchlist] = useState(['ceedee-lamb', 'breece-hall', 'tee-higgins', 'george-kittle']);
-  const roster = useMemo(() => seedPlayers.map(p => ({ ...p, shares: holdings.find(h => h.playerId === p.id)?.shares || 0 })), [holdings]);
+  const roster = useMemo(() => marketPlayers.map(p => ({ ...p, shares: holdings.find(h => h.playerId === p.id)?.shares || 0 })), [holdings, marketPlayers]);
   const valueOf = h => {
-    const p = seedPlayers.find(x => x.id === h.playerId);
+    const p = marketPlayers.find(x => x.id === h.playerId);
     return (p?.price || 0) * h.shares;
   };
   const totalValue = holdings.reduce((sum, h) => sum + valueOf(h), 0);
   const totalReturn = holdings.reduce((sum, h) => {
-    const p = seedPlayers.find(x => x.id === h.playerId);
+    const p = marketPlayers.find(x => x.id === h.playerId);
     return sum + ((p?.price || 0) - h.avgCost) * h.shares;
   }, 0);
   const trade = (playerId, side, shares = 1) => {
-    const player = seedPlayers.find(p => p.id === playerId);
+    const player = marketPlayers.find(p => p.id === playerId);
     if (!player || shares < 1) return;
     const existing = holdings.find(h => h.playerId === playerId);
     if (side === 'buy') {
@@ -57,8 +63,9 @@ export default function App() {
   };
   const toggleWatch = id => setWatchlist(old => old.includes(id) ? old.filter(x => x !== id) : [...old, id]);
   return <AppShell tab={tab} setTab={setTab}>
-    {tab === 'Dashboard' && <Dashboard cash={cash} totalValue={totalValue} totalReturn={totalReturn} players={roster} watchlist={watchlist} toggleWatch={toggleWatch} trade={trade} />}
-    {tab === 'Portfolio' && <Portfolio cash={cash} totalValue={totalValue} totalReturn={totalReturn} players={roster} holdings={holdings} transactions={transactions} trade={trade} />}
+    {tab === 'Dashboard' && <Dashboard cash={cash} totalValue={totalValue} totalReturn={totalReturn} players={roster} watchlist={watchlist} toggleWatch={toggleWatch} trade={trade} onPlayerClick={setSelectedId} />}
+    {tab === 'Portfolio' && <Portfolio cash={cash} totalValue={totalValue} totalReturn={totalReturn} players={roster} holdings={holdings} transactions={transactions} trade={trade} onPlayerClick={setSelectedId} />}
     {tab === 'Account' && <Account cash={cash} holdings={holdings} totalValue={totalValue} />}
+    {selectedId && <PlayerDetails key={selectedId} player={seedPlayers.find(p => p.id === selectedId)} onClose={closeDetails} onQuote={onQuote} />}
   </AppShell>;
 }
