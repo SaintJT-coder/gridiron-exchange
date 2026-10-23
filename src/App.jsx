@@ -1,71 +1,96 @@
-import React from 'react';
-import { useCallback, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { PlayerDetails } from './components/PlayerDetails.jsx';
 import { AppShell } from './components/AppShell.jsx';
 import { Dashboard } from './pages/Dashboard.jsx';
 import { Portfolio } from './pages/Portfolio.jsx';
 import { Account } from './pages/Account.jsx';
 import { players as seedPlayers } from './data/players.js';
+import { loadPlayerHistory } from './services/playerHistory.js';
+import { ACCOUNT_KEY, initialAccount, readAccount, portfolioTotals, executeTrade } from './services/portfolio.js';
 
 export default function App() {
+  const [loaded] = useState(() => {
+    try { return { account: readAccount(localStorage.getItem(ACCOUNT_KEY)) }; }
+    catch (error) { return { account: initialAccount(), error: error.message }; }
+  });
+  const [account, setAccount] = useState(loaded.account);
+  const accountRef = useRef(account);
+  const [storageError, setStorageError] = useState(loaded.error || '');
+  const [tradeError, setTradeError] = useState('');
   const [selectedId, setSelectedId] = useState(null);
   const [quotes, setQuotes] = useState({});
-  const onQuote = useCallback((id, quote) => setQuotes(old => ({ ...old, [id]: quote })), []);
-  const closeDetails = useCallback(() => setSelectedId(null), []);
-  const marketPlayers = useMemo(() => seedPlayers.map(p => quotes[p.id] ? { ...p, price: quotes[p.id].price, change: quotes[p.id].change ?? 0, priced: true, quoteMissing: quotes[p.id].change === null } : p), [quotes]);
+  const [quoteStatus, setQuoteStatus] = useState({});
+  const inFlight = useRef(new Map());
   const [tab, setTab] = useState('Dashboard');
-  const [cash, setCash] = useState(7519.50);
-  const [holdings, setHoldings] = useState([
-    { playerId: 'patrick-mahomes', shares: 12, avgCost: 120.45 },
-    { playerId: 'josh-allen', shares: 10, avgCost: 112.30 },
-    { playerId: 'lamar-jackson', shares: 8, avgCost: 108.12 },
-    { playerId: 'justin-jefferson', shares: 15, avgCost: 132.40 },
-    { playerId: 'jamar-chase', shares: 12, avgCost: 101.75 },
-    { playerId: 'saquon-barkley', shares: 10, avgCost: 88.23 },
-  ]);
-  const [transactions, setTransactions] = useState([
-    { date: 'Apr 26', playerId: 'patrick-mahomes', action: 'Bought', shares: 5, price: 128.40 },
-    { date: 'Apr 25', playerId: 'justin-jefferson', action: 'Bought', shares: 10, price: 142.10 },
-    { date: 'Apr 24', playerId: 'saquon-barkley', action: 'Sold', shares: 5, price: 94.32 },
-  ]);
-  const [watchlist, setWatchlist] = useState(['ceedee-lamb', 'breece-hall', 'tee-higgins', 'george-kittle']);
+  const { cash, holdings, transactions } = account;
+  useEffect(() => {
+    if (loaded.error) return; // Never overwrite a saved record that failed validation.
+    try { localStorage.setItem(ACCOUNT_KEY, JSON.stringify(account)); setStorageError(''); }
+    catch { setStorageError('Browser storage is unavailable. Keep this tab open: trades cannot survive a refresh.'); }
+  }, [account, loaded.error]);
+  const onQuote = useCallback((id, quote) => {
+    const valid = quote && Number.isFinite(quote.price) && quote.change !== null;
+    if (valid) setQuotes(old => ({ ...old, [id]: { ...quote, refreshedAt: new Date().toISOString() } }));
+    setQuoteStatus(old => ({ ...old, [id]: valid ? 'ready' : 'unavailable' }));
+  }, []);
+  const refreshPlayer = useCallback(id => {
+    if (inFlight.current.has(id)) return inFlight.current.get(id);
+    const player = seedPlayers.find(p => p.id === id);
+    if (!player) return Promise.resolve(null);
+    setQuoteStatus(old => ({ ...old, [id]: 'loading' }));
+    const request = loadPlayerHistory(player).then(data => {
+      onQuote(id, data.quote);
+      return data.quote?.change !== null ? data.quote : null;
+    }).catch(() => { setQuoteStatus(old => ({ ...old, [id]: 'error' })); return null; })
+      .finally(() => inFlight.current.delete(id));
+    inFlight.current.set(id, request);
+    return request;
+  }, [onQuote]);
+  const refreshPortfolio = useCallback(async () => {
+    const ids = accountRef.current.holdings.map(h => h.playerId);
+    // Refresh two players at a time to keep provider traffic bounded.
+    for (let i = 0; i < ids.length; i += 2) await Promise.all(ids.slice(i, i + 2).map(refreshPlayer));
+  }, [refreshPlayer]);
+  const holdingsKey = holdings.map(h => h.playerId).sort().join(',');
+  useEffect(() => {
+    refreshPortfolio();
+    const interval = setInterval(refreshPortfolio, 5 * 60 * 1000);
+    const focus = () => refreshPortfolio();
+    window.addEventListener('focus', focus);
+    return () => { clearInterval(interval); window.removeEventListener('focus', focus); };
+  }, [holdingsKey, refreshPortfolio]);
+  const closeDetails = useCallback(() => setSelectedId(null), []);
+  const marketPlayers = useMemo(() => seedPlayers.map(p => quotes[p.id]
+    ? { ...p, price: quotes[p.id].price, change: quotes[p.id].change, priced: true, quoteDate: quotes[p.id].date }
+    : p), [quotes]);
   const roster = useMemo(() => marketPlayers.map(p => ({ ...p, shares: holdings.find(h => h.playerId === p.id)?.shares || 0 })), [holdings, marketPlayers]);
-  const valueOf = h => {
-    const p = marketPlayers.find(x => x.id === h.playerId);
-    return (p?.price || 0) * h.shares;
-  };
-  const totalValue = holdings.reduce((sum, h) => sum + valueOf(h), 0);
-  const totalReturn = holdings.reduce((sum, h) => {
-    const p = marketPlayers.find(x => x.id === h.playerId);
-    return sum + ((p?.price || 0) - h.avgCost) * h.shares;
-  }, 0);
-  const trade = (playerId, side, shares = 1) => {
-    const player = marketPlayers.find(p => p.id === playerId);
-    if (!player || shares < 1) return;
-    const existing = holdings.find(h => h.playerId === playerId);
-    if (side === 'buy') {
-      const cost = player.price * shares;
-      if (cost > cash) return window.alert('Not enough simulated cash for this trade.');
-      setCash(v => +(v - cost).toFixed(2));
-      setHoldings(old => {
-        const found = old.find(h => h.playerId === playerId);
-        if (!found) return [...old, { playerId, shares, avgCost: player.price }];
-        return old.map(h => h.playerId === playerId
-          ? { ...h, avgCost: ((h.avgCost * h.shares) + cost) / (h.shares + shares), shares: h.shares + shares }
-          : h);
-      });
-    } else {
-      if (!existing || existing.shares < shares) return window.alert('You do not have enough shares to sell.');
-      setCash(v => +(v + player.price * shares).toFixed(2));
-      setHoldings(old => old.map(h => h.playerId === playerId ? { ...h, shares: h.shares - shares } : h).filter(h => h.shares > 0));
-    }
-    setTransactions(old => [{ date: 'Today', playerId, action: side === 'buy' ? 'Bought' : 'Sold', shares, price: player.price }, ...old].slice(0, 12));
+  const totals = portfolioTotals(holdings, marketPlayers);
+  const [watchlist, setWatchlist] = useState(['ceedee-lamb', 'breece-hall', 'tee-higgins', 'george-kittle']);
+  const [trading, setTrading] = useState(false);
+  const tradeLock = useRef(false);
+  const trade = async (playerId, side, shares = 1) => {
+    if (tradeLock.current) return;
+    if (loaded.error) { setTradeError('Saved account needs recovery before trading. Its stored record has been preserved.'); return; }
+    tradeLock.current = true; setTrading(true); setTradeError('');
+    try {
+      const quote = await refreshPlayer(playerId);
+      if (!quote || !Number.isFinite(quote.price)) { setTradeError('Could not verify an ESPN-based price. No trade was made; retry when stats are available.'); return; }
+      const result = executeTrade(accountRef.current, playerId, side, shares, quote.price);
+      if (result.error) { setTradeError(result.error); return; }
+      accountRef.current = result.account;
+      setAccount(result.account);
+    } finally { tradeLock.current = false; setTrading(false); }
   };
   const toggleWatch = id => setWatchlist(old => old.includes(id) ? old.filter(x => x !== id) : [...old, id]);
+  const status = { ready: holdings.filter(h => quoteStatus[h.playerId] === 'ready').length,
+    loading: holdings.some(h => quoteStatus[h.playerId] === 'loading'), total: holdings.length };
   return <AppShell tab={tab} setTab={setTab}>
-    {tab === 'Dashboard' && <Dashboard cash={cash} totalValue={totalValue} totalReturn={totalReturn} players={roster} watchlist={watchlist} toggleWatch={toggleWatch} trade={trade} onPlayerClick={setSelectedId} />}
-    {tab === 'Portfolio' && <Portfolio cash={cash} totalValue={totalValue} totalReturn={totalReturn} players={roster} holdings={holdings} transactions={transactions} trade={trade} onPlayerClick={setSelectedId} />}
-    {tab === 'Account' && <Account cash={cash} holdings={holdings} totalValue={totalValue} />}
+    {storageError && <p className="notice-box" role="alert">{storageError}</p>}
+    {tradeError && <p className="notice-box" role="alert">{tradeError}</p>}
+    {trading && <p className="muted" role="status">Verifying ESPN price and recording your paper trade…</p>}
+    {tab === 'Dashboard' && <Dashboard cash={cash} totalValue={totals.value} totalReturn={totals.gain} returnPct={totals.returnPct} costBasis={totals.cost} holdings={holdings} quoteStatus={status} players={roster} watchlist={watchlist} toggleWatch={toggleWatch} trade={trade} onPlayerClick={setSelectedId} />}
+    {tab === 'Portfolio' && <Portfolio cash={cash} totalValue={totals.value} totalReturn={totals.gain} returnPct={totals.returnPct} costBasis={totals.cost} quoteStatus={quoteStatus} status={status} refreshPortfolio={refreshPortfolio} players={roster} holdings={holdings} transactions={transactions} trade={trade} onPlayerClick={setSelectedId} />}
+    {tab === 'Account' && <Account cash={cash} holdings={holdings} totalValue={totals.value} />}
     {selectedId && <PlayerDetails key={selectedId} player={seedPlayers.find(p => p.id === selectedId)} onClose={closeDetails} onQuote={onQuote} />}
   </AppShell>;
 }
