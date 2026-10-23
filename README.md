@@ -83,11 +83,11 @@ src/
 
 - All prices, balances, returns, trades, and game schedule rows are demo data.
 - No market feed or current odds/prices are connected.
-- Client-side state resets on refresh. Add a real backend only after defining authentication, data validation, and security requirements.
+- Paper trades and purchase costs are saved in this browser. A cloud account/backend is still needed to sync across devices.
 - This is a game interface, not financial advice.
 
 ## Live player performance
 
-Click a player name to load their latest five completed appearances from ESPN, ESPN full-PPR actual points and matching weekly projections, and the simulated stock-price impact of each game. Loaded player prices also feed paper trades and portfolio values; unopened players retain labeled demo seeds. This connection needs no API key. See [player history setup and rules](docs/PLAYER_HISTORY.md) for scoring, benchmarks, pricing, provider limitations and validation. Historical price rows are reconstructed simulation results, not PredictionStrike prices or recorded market trades.
+Click a player name to load their latest five completed appearances from ESPN, ESPN full-PPR actual points and matching weekly projections, and the simulated stock-price impact of each game. Held-player prices refresh automatically and gains compare current values with recorded purchase costs. New paper trades persist in this browser; unopened, unheld players retain labeled demo seeds. This connection needs no API key. See [player history setup and rules](docs/PLAYER_HISTORY.md) for scoring, benchmarks, pricing, provider limitations and validation. Historical price rows are reconstructed simulation results, not PredictionStrike prices or recorded market trades.
 
 Run `npm test` for scoring and service tests.
