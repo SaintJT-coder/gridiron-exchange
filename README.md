@@ -88,6 +88,6 @@ src/
 
 ## Live player performance
 
-Click a player name to load their latest five completed appearances from ESPN, calculated Gridiron PPR fantasy points, and the simulated stock-price impact of each game. Loaded player prices also feed paper trades and portfolio values; unopened players retain labeled demo seeds. This connection needs no API key. See [player history setup and rules](docs/PLAYER_HISTORY.md) for scoring, benchmarks, pricing, provider limitations and validation. Historical price rows are reconstructed simulation results, not PredictionStrike prices or recorded market trades.
+Click a player name to load their latest five completed appearances from ESPN, ESPN full-PPR actual points and matching weekly projections, and the simulated stock-price impact of each game. Loaded player prices also feed paper trades and portfolio values; unopened players retain labeled demo seeds. This connection needs no API key. See [player history setup and rules](docs/PLAYER_HISTORY.md) for scoring, benchmarks, pricing, provider limitations and validation. Historical price rows are reconstructed simulation results, not PredictionStrike prices or recorded market trades.
 
 Run `npm test` for scoring and service tests.
