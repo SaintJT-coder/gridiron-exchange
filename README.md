@@ -85,3 +85,9 @@ src/
 - No market feed or current odds/prices are connected.
 - Client-side state resets on refresh. Add a real backend only after defining authentication, data validation, and security requirements.
 - This is a game interface, not financial advice.
+
+## Live player performance
+
+Click a player name to load their latest five completed appearances from ESPN, calculated Gridiron PPR fantasy points, and the simulated stock-price impact of each game. Loaded player prices also feed paper trades and portfolio values; unopened players retain labeled demo seeds. This connection needs no API key. See [player history setup and rules](docs/PLAYER_HISTORY.md) for scoring, benchmarks, pricing, provider limitations and validation. Historical price rows are reconstructed simulation results, not PredictionStrike prices or recorded market trades.
+
+Run `npm test` for scoring and service tests.
