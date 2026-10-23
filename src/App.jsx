@@ -12,7 +12,7 @@ export default function App() {
   const [quotes, setQuotes] = useState({});
   const onQuote = useCallback((id, quote) => setQuotes(old => ({ ...old, [id]: quote })), []);
   const closeDetails = useCallback(() => setSelectedId(null), []);
-  const marketPlayers = useMemo(() => seedPlayers.map(p => quotes[p.id] ? { ...p, price: quotes[p.id].price, change: quotes[p.id].change, priced: true } : p), [quotes]);
+  const marketPlayers = useMemo(() => seedPlayers.map(p => quotes[p.id] ? { ...p, price: quotes[p.id].price, change: quotes[p.id].change ?? 0, priced: true, quoteMissing: quotes[p.id].change === null } : p), [quotes]);
   const [tab, setTab] = useState('Dashboard');
   const [cash, setCash] = useState(7519.50);
   const [holdings, setHoldings] = useState([

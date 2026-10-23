@@ -1,26 +1,33 @@
-# Live player game history
+# ESPN full-PPR player history
 
-Click any player name in the market, movers, watchlist, or holdings. The dialog fetches ESPN game logs and completed box scores, shows the five latest appearances and fantasy points, and reconstructs performance-linked simulation prices. The loaded quote is shared by market lists, paper trades and portfolio valuations. Players not yet loaded retain their labeled demo seed; this remains a prototype, not a synchronized exchange. Account state and loaded quotes reset on refresh.
+Click a player in the market, movers, watchlist, holdings or transactions. The last five completed appearances show ESPN Fantasy full-PPR actual points, that player's weekly ESPN projection, and reconstructed simulation-price changes.
 
-## Connection
+## Sources
 
-No API key or new account is required. Browser requests use the public ESPN endpoints below, verified with real responses and wildcard CORS headers during implementation:
+- Game log: https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{espnId}/gamelog?season={year}
+- Completed appearances: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event={eventId}
+- Fantasy actuals and projections: https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{year}/segments/0/leaguedefaults/3?view=kona_playercard
 
-- `https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{espnId}/gamelog?season={year}`
-- `https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event={eventId}`
+The fantasy request uses x-fantasy-filter to select the ESPN athlete ID, source IDs 0 (actual) and 1 (projection), and weekly split type 1. The endpoint's preset 3 is ESPN default full PPR. The adapter reads ESPN's appliedTotal directly, matching athlete ID, seasonId, scoringPeriodId and statSplitTypeId. It never substitutes a season total, another player's projection, or a fixed position benchmark. Exact provider precision is retained for pricing; display rounds to two decimals.
 
-These public endpoints are unofficial and have no availability contract. The adapter is isolated in `src/services/playerHistory.js` for replacement with a licensed provider. For a production provider requiring an API key, use a server endpoint and keep the key out of Vite/browser bundles. Existing Firebase work is left on its own branch.
+Actual and projected scores both use ESPN's full-PPR preset, including two-point conversions, return/recovery touchdowns and turnovers. No partial box-score calculator is used. ESPN's rules: https://support.espn.com/hc/en-us/articles/360003914032-Scoring-Formats . Custom league settings can differ.
 
-The current season is August–January based on the NFL season year. If fewer than five appearances are available, the previous season is fetched. Regular season and postseason count; preseason, DNPs, byes, future games and unfinished games do not. Requests time out after 15 seconds, use four concurrent box-score requests at most per player, and share a five-minute in-memory cache. A failed request offers Retry; the UI never substitutes fabricated results. A player without a box-score appearance is excluded rather than assigned zero points.
+Live validation examples: Justin Jefferson 2026 week 1 scores 31.20 full-PPR points (including a two-point conversion), projected 17.08263745. Patrick Mahomes 2026 week 6 scores 10.48, projected 18.77409043. Retrieved projections are historical values currently returned by ESPN, not independently verified snapshots frozen at kickoff. Provider revisions can change a reconstruction.
 
-## Scoring and pricing
+These public endpoints are unofficial and have no availability contract. CORS GET and x-fantasy-filter preflight were verified for the published origin. No API key or account is required. For a production provider requiring a key, use a server endpoint. Never place a private key in a browser bundle.
 
-Gridiron PPR: 0.04/passing yard, 4/passing TD, -2/interception, 0.1/rushing or receiving yard, 6/rushing or receiving TD, 1/reception, -2/lost fumble. Two-point conversions, return touchdowns and bonuses are excluded; this is explicitly disclosed and is not claimed to match another platform's scoring.
+## Missing data and seasons
 
-Fixed benchmarks are QB 20, RB/WR 15 and TE 12 points. Per-game movement is `(points - benchmark) * 0.5%`, capped at ±15%. Each season starts at the existing player's demo seed, prices compound chronologically through every available completed appearance and round to cents, with a $0.01 floor. Last-five rows show the actual before/after simulation calculation, dollar delta and rounded percent. Benchmarks are simulation rules, not historical fantasy projections. Older-season rows reset independently at the season boundary. Corrections by the provider can change reconstructed history on refresh.
+NFL regular-season weeks map to ESPN fantasy scoring periods. Postseason games remain visible but have unavailable fantasy values rather than incorrectly matching playoff week 1 to regular-season fantasy week 1. Missing or ambiguous actuals/projections show Unavailable. No price adjustment is applied for that appearance, and the price carries forward. A failed fantasy request still permits viewing the game log without fabricated values.
 
-PredictionStrike's publicly listed product describes performance and fan demand affecting player prices (https://apps.apple.com/us/app/predictionstrike-sport-stocks/id1532763870). This feature takes that broad product concept as reference; it does not copy its branding or claim its proprietary formula or historical prices. Fan demand is not modeled.
+Current-season appearances are loaded first, with previous-season fallback when fewer than five are available. Preseason, unfinished games, DNPs and byes are excluded. Up to four box-score requests run at once, with 15-second timeouts and a five-minute in-memory cache keyed by URL plus filters, so one player's projections cannot leak into another's cache entry.
+
+## Simulation pricing
+
+Each point above/below the matching ESPN weekly full-PPR projection moves price by 0.5%, capped at plus/minus 15% per game. No fixed QB/RB/WR/TE benchmarks remain. Price replays chronologically from the existing demo seed each season, rounding to cents with a $0.01 floor. Missing data holds price without claiming a measured zero-percent impact. These are reconstructed game prices, not recorded market trades or PredictionStrike prices. Fan demand is not modeled.
+
+A loaded player's quote feeds market lists, paper trades and portfolio valuations. Unopened players retain labeled demo seeds. Quotes and account state reset on refresh; the app is still an on-demand prototype rather than a synchronized exchange. Existing Firebase work stays on its separate branch.
 
 ## Validation
 
-`npm test` checks scoring, box-score parsing, DNP/final filtering, missing data, chronological compounding, caps, season resets, season fallback and caching. `npm run build` checks the production bundle. Live-provider checks should include a QB and receiver because categories differ. No Firebase configuration, database schema, or API secret is needed for this feature.
+npm test covers exact ESPN totals/projections, two-point-conversion regression, season/week/player/source matching, duplicate/missing/zero values, postseason isolation, completed appearances, price caps, season resets, fallback and per-player caching. npm run build verifies the production bundle. Live checks cover a QB and a WR.
