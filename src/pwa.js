@@ -1,4 +1,4 @@
-const VERSION='2026-10-20-pwa-1';
+const VERSION='2026-10-23-player-history-1';
 export function setupPwa(){
  const banner=document.createElement('div');banner.id='app-update-banner';banner.setAttribute('role','status');banner.innerHTML='<span>Update available 🚀</span><button type="button">Refresh</button>';document.body.appendChild(banner);
  banner.querySelector('button').addEventListener('click',()=>location.reload());
