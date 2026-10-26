@@ -1,93 +1,25 @@
 # Gridiron Exchange
 
-A responsive NFL player-market **simulation** inspired by the approved dark navy / cyan / teal mockup. Built with Vite + React and organized so it can be opened in GitHub, VS Code, Codex, or Claude Code.
+NFL player-stock paper trading with ESPN default full-PPR points and weekly projections. All balances and share prices are simulated; no real-money trading, deposits or brokerage connections.
 
-## Included
+## App
 
-- Dashboard, Portfolio, and Account tabs
-- NFL player market table, search, team filter, watchlist, top movers, and upcoming games
-- Player headshots beside names with initials fallback if an image is unavailable
-- Simulated portfolio balance and buy/sell interactions using fictional currency
-- Responsive layout for desktop, tablet, and mobile
-- No backend, brokerage connection, deposits, withdrawals, or real-money trading
+- Shared append-only market ledger, captured pregame projections, continuous prices across seasons, and immutable settled game prices.
+- Clickable player details with the last five available appearances, actual/projected fantasy points and per-game price impact.
+- Verified current teams, upcoming games, gainers/losers and settled-price trends.
+- Quantity-based buy/sell previews that recheck prices, balance, account revision and game status before confirmation.
+- Recorded purchase-cost portfolio returns and persistent guest accounts with cross-tab protection.
+- JSON backup/export and reviewed restore; optional private Firebase email/password cloud sync across devices.
+- Saved display profile, light/dark theme, in-app confirmations and watchlists.
 
-## Run locally
+## Run
 
-Requirements: Node.js 20+ and npm.
+Node.js 24 recommended. Run npm ci, npm test and npm run dev. npm run build creates the production bundle. npm run market:update refreshes public/market.json from the existing ledger; do not delete or recreate an existing settled ledger.
 
-```bash
-npm install
-npm run dev
-```
+## Architecture and limits
 
-Open the local URL printed by Vite (usually `http://localhost:5173`).
+See [reliability and account documentation](docs/RELIABILITY_RELEASE.md) for settlement rules, data provenance, backup migration, cloud privacy, tests and deployment. See [ESPN provider details](docs/PLAYER_HISTORY.md) for point-source matching. Public ESPN endpoints are unofficial; availability is not guaranteed. GitHub scheduled updates are best effort. Trading pauses on stale/incomplete data or games awaiting settlement.
 
-Create a production build:
+Firebase web configuration is public metadata. Admin credentials must never be placed in this repository or browser bundle. Private accounts live only in owner-scoped Firestore documents or local browser storage, not the published market-data branch. The private backups are a personal simulation rather than server-authoritative competitive trading balances. Prototype Security Rules need review before broad distribution.
 
-```bash
-npm run build
-npm run preview
-```
-
-## Push to GitHub
-
-1. Create an empty repository on GitHub.
-2. Unzip this project and open the folder in your terminal.
-3. Run:
-
-```bash
-git init
-git add .
-git commit -m "Initial Gridiron Exchange prototype"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-Never commit `.env` files or private API keys.
-
-## Continue with Claude / Codex
-
-Open the repository folder in Claude Code, Codex, or VS Code. Start with this prompt:
-
-> Read README.md and inspect the existing app before changing anything. Preserve the visual direction and component boundaries. This is a fictional-money NFL player market simulation only. Make changes in small steps, run `npm run build`, and summarize files changed and any known issues.
-
-## Player photos
-
-The prototype's sample roster uses ESPN CDN headshot URLs with known ESPN player IDs for convenience in local prototyping. These are **remote image URLs**, not assets bundled in this repository, and their availability/terms may change. Verify permissions and applicable terms before public/commercial launch. Do not scrape or copy photos from players' personal Instagram pages without permission. Prefer a licensed sports-data/image provider or a source whose terms explicitly allow your intended use.
-
-All headshots use `object-fit: cover` and a initials fallback when an image fails. The player catalog is centralized in `src/data/players.js`, so IDs/image URLs can be replaced with an authorized provider later.
-
-## Project structure
-
-```text
-src/
-  components/
-    AppShell.jsx
-    PlayerAvatar.jsx
-    MiniSparkline.jsx
-    StatCard.jsx
-  data/
-    players.js
-    mockData.js
-  pages/
-    Dashboard.jsx
-    Portfolio.jsx
-    Account.jsx
-  App.jsx
-  main.jsx
-  styles.css
-```
-
-## Important prototype notes
-
-- All prices, balances, returns, trades, and game schedule rows are demo data.
-- No market feed or current odds/prices are connected.
-- Paper trades and purchase costs are saved in this browser. A cloud account/backend is still needed to sync across devices.
-- This is a game interface, not financial advice.
-
-## Live player performance
-
-Click a player name to load their latest five completed appearances from ESPN, ESPN full-PPR actual points and matching weekly projections, and the simulated stock-price impact of each game. Held-player prices refresh automatically and gains compare current values with recorded purchase costs. New paper trades persist in this browser; unopened, unheld players retain labeled demo seeds. This connection needs no API key. See [player history setup and rules](docs/PLAYER_HISTORY.md) for scoring, benchmarks, pricing, provider limitations and validation. Historical price rows are reconstructed simulation results, not PredictionStrike prices or recorded market trades.
-
-Run `npm test` for scoring and service tests.
+Player photos remain remote ESPN references with initials fallback. Verify provider permissions for public/commercial distribution.

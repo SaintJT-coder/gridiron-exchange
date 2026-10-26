@@ -44,7 +44,7 @@ test('price uses precise ESPN projection and holds when data is missing', () => 
   assert.equal(rows[1].price,107.06); assert.equal(rows[1].delta,null);
   assert.equal(rows[2].change,null);
   assert.equal(rows[3].price,123.12); assert.equal(rows[4].price,104.65);
-  assert.equal(rows[5].price,100);
+  assert.equal(rows[5].price,104.65);
 });
 test('integration matches fantasy season/week, falls back across seasons, caches with player filters', async () => {
   const original = globalThis.fetch; let calls=0;

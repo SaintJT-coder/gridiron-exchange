@@ -41,3 +41,7 @@ Unrealized gain/loss = current value of remaining shares minus their recorded co
 New paper trades atomically update cash, shares, transaction records and weighted average purchase cost. Total position cost is tracked in integer cents; partial sells remove a proportional average cost and record realized gain separately. Transactions keep their actual execution timestamp/price. Seeded sample transactions remain explicitly labeled and are not used to reconstruct the incomplete opening history.
 
 Account data persists in browser localStorage under gridiron-exchange-paper-account-v1. Existing opening positions retain their recorded average costs; acquisition dates are not fabricated. Older session-only trades lost before this feature cannot be recovered. Storage is device/browser-specific, not a cloud account. Invalid saved data is left untouched with a warning and trading blocked; write failures warn the user to keep the tab open. Quotes refresh independently and are not treated as persisted execution prices.
+
+## October 26 shared-ledger upgrade
+
+The earlier browser replay and storage descriptions above document the prior release. The current implementation uses a shared immutable ledger, continuous cross-season pricing, pregame snapshots and explicit historical provenance. Accounts now support guarded local writes, export/import, and optional private cloud sync. See RELIABILITY_RELEASE.md for the current architecture and operational rules.
