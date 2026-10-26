@@ -1,0 +1,7621 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-26T16:27:45.678Z",
+  "season": 2026,
+  "players": [
+    {
+      "id": "patrick-mahomes",
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "position": "QB",
+      "price": 130.93,
+      "change": -4.81,
+      "trend": [
+        5,
+        7,
+        6,
+        9,
+        8,
+        12,
+        15
+      ],
+      "espnId": "3139477",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
+      "teamId": "12",
+      "history": [
+        {
+          "id": "401872931",
+          "season": 2026,
+          "date": "2026-09-15T00:15:00.000+00:00",
+          "week": 1,
+          "matchup": "vs DEN",
+          "result": "W 31-10",
+          "points": 21.66,
+          "baseline": 15.48147217,
+          "before": 135.72,
+          "price": 139.91,
+          "delta": 4.19,
+          "change": 3.09,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872945",
+          "season": 2026,
+          "date": "2026-09-21T00:20:00.000+00:00",
+          "week": 2,
+          "matchup": "vs IND",
+          "result": "W 33-30 OT",
+          "points": 28.98,
+          "baseline": 18.22038326,
+          "before": 139.91,
+          "price": 147.44,
+          "delta": 7.53,
+          "change": 5.38,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872952",
+          "season": 2026,
+          "date": "2026-09-27T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "@ MIA",
+          "result": "W 24-10",
+          "points": 15.94,
+          "baseline": 19.6292025,
+          "before": 147.44,
+          "price": 144.72,
+          "delta": -2.72,
+          "change": -1.84,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872976",
+          "season": 2026,
+          "date": "2026-10-04T20:25:00.000+00:00",
+          "week": 4,
+          "matchup": "@ LV",
+          "result": "W 30-27",
+          "points": 17,
+          "baseline": 18.69331389,
+          "before": 144.72,
+          "price": 143.49,
+          "delta": -1.23,
+          "change": -0.85,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873006",
+          "season": 2026,
+          "date": "2026-10-18T20:25:00.000+00:00",
+          "week": 6,
+          "matchup": "vs LAC",
+          "result": "W 22-6",
+          "points": 10.48,
+          "baseline": 18.77409043,
+          "before": 143.49,
+          "price": 137.54,
+          "delta": -5.95,
+          "change": -4.15,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873022",
+          "season": 2026,
+          "date": "2026-10-26T00:20:00.000+00:00",
+          "week": 7,
+          "matchup": "@ SEA",
+          "result": "L 20-3",
+          "points": 6,
+          "baseline": 15.60784305,
+          "before": 137.54,
+          "price": 130.93,
+          "delta": -6.61,
+          "change": -4.81,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-26T16:26:23.030Z"
+        }
+      ],
+      "snapshots": {
+        "401873022": {
+          "value": 15.60784305,
+          "capturedAt": "2026-10-25T21:36:13.420Z",
+          "season": 2026,
+          "week": 7
+        },
+        "401873033": {
+          "value": 14.20504031,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873045": {
+          "value": 17.01811226,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873058": {
+          "value": 16.24292856,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873067": {
+          "value": 18.32527839,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873082": {
+          "value": 17.89781643,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873096": {
+          "value": 14.98331887,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873119": {
+          "value": 15.68255576,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873139": {
+          "value": 16.76476935,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873153": {
+          "value": 15.72663962,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873158": {
+          "value": 15.67576707,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873178": {
+          "value": 19.00033556,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-26T00:20:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "josh-allen",
+      "name": "Josh Allen",
+      "team": "BUF",
+      "position": "QB",
+      "price": 142,
+      "change": -3.42,
+      "trend": [
+        4,
+        5,
+        8,
+        7,
+        9,
+        11,
+        12
+      ],
+      "espnId": "3918298",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
+      "teamId": "2",
+      "history": [
+        {
+          "id": "401872660",
+          "season": 2026,
+          "date": "2026-09-13T17:00:00.000+00:00",
+          "week": 1,
+          "matchup": "@ HOU",
+          "result": "W 36-31",
+          "points": 35.66,
+          "baseline": 19.32266889,
+          "before": 124.36,
+          "price": 134.52,
+          "delta": 10.16,
+          "change": 8.17,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872932",
+          "season": 2026,
+          "date": "2026-09-18T00:15:00.000+00:00",
+          "week": 2,
+          "matchup": "vs DET",
+          "result": "W 41-31",
+          "points": 40.82,
+          "baseline": 22.65422402,
+          "before": 134.52,
+          "price": 146.74,
+          "delta": 12.22,
+          "change": 9.08,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872953",
+          "season": 2026,
+          "date": "2026-09-27T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "vs LAC",
+          "result": "W 24-16",
+          "points": 17.46,
+          "baseline": 23.55309535,
+          "before": 146.74,
+          "price": 142.27,
+          "delta": -4.47,
+          "change": -3.05,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872971",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "vs NE",
+          "result": "L 29-26",
+          "points": 18.52,
+          "baseline": 22.22972707,
+          "before": 142.27,
+          "price": 139.63,
+          "delta": -2.64,
+          "change": -1.86,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872994",
+          "season": 2026,
+          "date": "2026-10-13T00:15:00.000+00:00",
+          "week": 5,
+          "matchup": "@ LAR",
+          "result": "W 37-34 OT",
+          "points": 30.5,
+          "baseline": 19.89926489,
+          "before": 139.63,
+          "price": 147.03,
+          "delta": 7.4,
+          "change": 5.3,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873005",
+          "season": 2026,
+          "date": "2026-10-18T20:25:00.000+00:00",
+          "week": 6,
+          "matchup": "@ LV",
+          "result": "W 33-30",
+          "points": 18.3,
+          "baseline": 25.14511092,
+          "before": 147.03,
+          "price": 142,
+          "delta": -5.03,
+          "change": -3.42,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873026": {
+          "value": 23.73437406,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873051": {
+          "value": 18.98500964,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873054": {
+          "value": 23.09815935,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873070": {
+          "value": 25.13428261,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873082": {
+          "value": 21.59882263,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873105": {
+          "value": 22.56897049,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873122": {
+          "value": 21.55416302,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873126": {
+          "value": 24.00651588,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873142": {
+          "value": 20.43350055,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873161": {
+          "value": 24.32588189,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873181": {
+          "value": 23.91894715,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-18T20:25:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "lamar-jackson",
+      "name": "Lamar Jackson",
+      "team": "BAL",
+      "position": "QB",
+      "price": 118.53,
+      "change": -1.16,
+      "trend": [
+        3,
+        4,
+        3,
+        8,
+        9,
+        11,
+        14
+      ],
+      "espnId": "3916387",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
+      "teamId": "33",
+      "history": [
+        {
+          "id": "401872659",
+          "season": 2026,
+          "date": "2026-09-13T17:00:00.000+00:00",
+          "week": 1,
+          "matchup": "@ IND",
+          "result": "W 41-23",
+          "points": 24.96,
+          "baseline": 19.1264909,
+          "before": 121.06,
+          "price": 124.59,
+          "delta": 3.53,
+          "change": 2.92,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872938",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "vs NO",
+          "result": "L 24-17",
+          "points": 14.8,
+          "baseline": 21.66281505,
+          "before": 124.59,
+          "price": 120.31,
+          "delta": -4.28,
+          "change": -3.44,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872960",
+          "season": 2026,
+          "date": "2026-09-27T20:25:00.000+00:00",
+          "week": 3,
+          "matchup": "vs DAL",
+          "result": "W 34-31",
+          "points": 20.44,
+          "baseline": 21.08355261,
+          "before": 120.31,
+          "price": 119.92,
+          "delta": -0.39,
+          "change": -0.32,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872973",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "vs TEN",
+          "result": "W 24-18",
+          "points": 18.88,
+          "baseline": 21.19866493,
+          "before": 119.92,
+          "price": 118.53,
+          "delta": -1.39,
+          "change": -1.16,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873026": {
+          "value": 22.15184458,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873037": {
+          "value": 20.13185622,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873065": {
+          "value": 20.40493785,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873068": {
+          "value": 20.1727864,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873085": {
+          "value": 20.68135408,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873116": {
+          "value": 19.58734344,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873128": {
+          "value": 18.35144319,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873149": {
+          "value": 19.69198871,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873156": {
+          "value": 19.75632682,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873183": {
+          "value": 19.04790884,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-04T17:00:00.000+00:00",
+      "archive": [
+        {
+          "id": "401772943",
+          "season": 2025,
+          "date": "2025-10-31T00:15:00.000+00:00",
+          "week": 9,
+          "matchup": "@ MIA",
+          "result": "W 28-6",
+          "points": 25.56,
+          "baseline": 23.44229375,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772741",
+          "season": 2025,
+          "date": "2025-09-28T20:25:00.000+00:00",
+          "week": 4,
+          "matchup": "@ KC",
+          "result": "L 37-20",
+          "points": 10.68,
+          "baseline": 22.75772162,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772812",
+          "season": 2025,
+          "date": "2025-09-23T00:15:00.000+00:00",
+          "week": 3,
+          "matchup": "vs DET",
+          "result": "L 38-30",
+          "points": 27.02,
+          "baseline": 23.63530932,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772726",
+          "season": 2025,
+          "date": "2025-09-14T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "vs CLE",
+          "result": "W 41-17",
+          "points": 26.3,
+          "baseline": 22.76225026,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772918",
+          "season": 2025,
+          "date": "2025-09-08T00:20:00.000+00:00",
+          "week": 1,
+          "matchup": "@ BUF",
+          "result": "L 41-40",
+          "points": 29.36,
+          "baseline": 22.00042418,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        }
+      ],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "justin-jefferson",
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "position": "WR",
+      "price": 133.91,
+      "change": -5.06,
+      "trend": [
+        3,
+        7,
+        6,
+        9,
+        11,
+        10,
+        16
+      ],
+      "espnId": "4262921",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4262921.png",
+      "teamId": "16",
+      "history": [
+        {
+          "id": "401872927",
+          "season": 2026,
+          "date": "2026-09-13T20:25:00.000+00:00",
+          "week": 1,
+          "matchup": "vs GB",
+          "result": "W 39-22",
+          "points": 31.2,
+          "baseline": 17.08263745,
+          "before": 148.32,
+          "price": 158.79,
+          "delta": 10.47,
+          "change": 7.06,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872937",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "@ CHI",
+          "result": "W 9-3",
+          "points": 8.5,
+          "baseline": 18.35804621,
+          "before": 158.79,
+          "price": 150.96,
+          "delta": -7.83,
+          "change": -4.93,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872959",
+          "season": 2026,
+          "date": "2026-09-27T20:05:00.000+00:00",
+          "week": 3,
+          "matchup": "@ TB",
+          "result": "W 23-16",
+          "points": 5.2,
+          "baseline": 18.2582277,
+          "before": 150.96,
+          "price": 141.1,
+          "delta": -9.86,
+          "change": -6.53,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872987",
+          "season": 2026,
+          "date": "2026-10-11T17:00:00.000+00:00",
+          "week": 5,
+          "matchup": "@ NO",
+          "result": "W 23-13",
+          "points": 18.8,
+          "baseline": 18.87908916,
+          "before": 141.1,
+          "price": 141.04,
+          "delta": -0.06,
+          "change": -0.04,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873014",
+          "season": 2026,
+          "date": "2026-10-25T17:00:00.000+00:00",
+          "week": 7,
+          "matchup": "vs IND",
+          "result": "W 16-10",
+          "points": 8.4,
+          "baseline": 18.51192126,
+          "before": 141.04,
+          "price": 133.91,
+          "delta": -7.13,
+          "change": -5.06,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873030": {
+          "value": 17.24778123,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873051": {
+          "value": 17.57442735,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873060": {
+          "value": 15.38105151,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873077": {
+          "value": 15.86287778,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873084": {
+          "value": 16.4462026,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873106": {
+          "value": 15.81674019,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873109": {
+          "value": 16.20059355,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873138": {
+          "value": 17.50232949,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873147": {
+          "value": 16.59187019,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873163": {
+          "value": 15.84281888,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873173": {
+          "value": 16.77500535,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-25T17:00:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "jamar-chase",
+      "name": "Ja'Marr Chase",
+      "team": "CIN",
+      "position": "WR",
+      "price": 98.57,
+      "change": -2.29,
+      "trend": [
+        4,
+        6,
+        5,
+        9,
+        7,
+        12,
+        13
+      ],
+      "espnId": "4362628",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362628.png",
+      "teamId": "4",
+      "history": [
+        {
+          "id": "401872925",
+          "season": 2026,
+          "date": "2026-09-13T17:00:00.000+00:00",
+          "week": 1,
+          "matchup": "vs TB",
+          "result": "W 33-27",
+          "points": 3.2,
+          "baseline": 19.94548672,
+          "before": 112.47,
+          "price": 103.05,
+          "delta": -9.42,
+          "change": -8.38,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872934",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "@ HOU",
+          "result": "W 20-6",
+          "points": 26.5,
+          "baseline": 19.00946565,
+          "before": 103.05,
+          "price": 106.91,
+          "delta": 3.86,
+          "change": 3.75,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872950",
+          "season": 2026,
+          "date": "2026-09-27T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "@ PIT",
+          "result": "L 30-27",
+          "points": 24.8,
+          "baseline": 18.94007201,
+          "before": 106.91,
+          "price": 110.04,
+          "delta": 3.13,
+          "change": 2.93,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872969",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "vs JAX",
+          "result": "L 22-17",
+          "points": 5.7,
+          "baseline": 20.42929659,
+          "before": 110.04,
+          "price": 101.94,
+          "delta": -8.1,
+          "change": -7.36,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872982",
+          "season": 2026,
+          "date": "2026-10-11T17:00:00.000+00:00",
+          "week": 5,
+          "matchup": "@ MIA",
+          "result": "W 31-24",
+          "points": 19.7,
+          "baseline": 21.78486942,
+          "before": 101.94,
+          "price": 100.88,
+          "delta": -1.06,
+          "change": -1.04,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873012",
+          "season": 2026,
+          "date": "2026-10-25T17:00:00.000+00:00",
+          "week": 7,
+          "matchup": "@ BAL",
+          "result": "W 35-13",
+          "points": 17.2,
+          "baseline": 21.78556922,
+          "before": 100.88,
+          "price": 98.57,
+          "delta": -2.31,
+          "change": -2.29,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873031": {
+          "value": 21.67727424,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873038": {
+          "value": 21.93938804,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873064": {
+          "value": 20.80607364,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873078": {
+          "value": 21.9976243,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873087": {
+          "value": 22.21875081,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873097": {
+          "value": 20.25783448,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873119": {
+          "value": 21.09790313,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873129": {
+          "value": 21.05624569,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873145": {
+          "value": 21.13984228,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873156": {
+          "value": 22.17236567,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873174": {
+          "value": 20.48856506,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-25T17:00:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "saquon-barkley",
+      "name": "Saquon Barkley",
+      "team": "PHI",
+      "position": "RB",
+      "price": 76.71,
+      "change": -6.15,
+      "trend": [
+        4,
+        3,
+        7,
+        6,
+        9,
+        10,
+        12
+      ],
+      "espnId": "3929630",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
+      "teamId": "21",
+      "history": [
+        {
+          "id": "401872929",
+          "season": 2026,
+          "date": "2026-09-13T20:25:00.000+00:00",
+          "week": 1,
+          "matchup": "vs WSH",
+          "result": "W 24-22",
+          "points": 9,
+          "baseline": 17.67018601,
+          "before": 96.21,
+          "price": 92.04,
+          "delta": -4.17,
+          "change": -4.33,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872939",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "@ TEN",
+          "result": "W 24-20",
+          "points": 3,
+          "baseline": 17.61534886,
+          "before": 92.04,
+          "price": 85.31,
+          "delta": -6.73,
+          "change": -7.31,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872963",
+          "season": 2026,
+          "date": "2026-09-29T00:15:00.000+00:00",
+          "week": 3,
+          "matchup": "@ CHI",
+          "result": "L 27-7",
+          "points": 9,
+          "baseline": 17.36872185,
+          "before": 85.31,
+          "price": 81.74,
+          "delta": -3.57,
+          "change": -4.18,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872970",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "vs LAR",
+          "result": "L 24-20",
+          "points": 2,
+          "baseline": 14.31573631,
+          "before": 81.74,
+          "price": 76.71,
+          "delta": -5.03,
+          "change": -6.15,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873009": {
+          "value": 15.19533025,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 7
+        },
+        "401873035": {
+          "value": 12.96143612,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873044": {
+          "value": 13.13447551,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873076": {
+          "value": 11.35187725,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873080": {
+          "value": 13.53244213,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873104": {
+          "value": 14.50108021,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873114": {
+          "value": 13.59710914,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873125": {
+          "value": 10.70687983,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873140": {
+          "value": 13.4493762,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873170": {
+          "value": 10.83135093,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873182": {
+          "value": 12.35913612,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-04T17:00:00.000+00:00",
+      "archive": [
+        {
+          "id": "401772745",
+          "season": 2025,
+          "date": "2025-10-05T17:00:00.000+00:00",
+          "week": 5,
+          "matchup": "vs DEN",
+          "result": "L 21-17",
+          "points": 17.8,
+          "baseline": 17.95098332,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772845",
+          "season": 2025,
+          "date": "2025-09-28T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "@ TB",
+          "result": "W 31-25",
+          "points": 17.4,
+          "baseline": 18.3630418,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772839",
+          "season": 2025,
+          "date": "2025-09-21T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "vs LAR",
+          "result": "W 33-26",
+          "points": 9.5,
+          "baseline": 18.62032782,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772837",
+          "season": 2025,
+          "date": "2025-09-14T20:25:00.000+00:00",
+          "week": 2,
+          "matchup": "@ KC",
+          "result": "W 20-17",
+          "points": 17.4,
+          "baseline": 18.4605579,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772510",
+          "season": 2025,
+          "date": "2025-09-05T00:20:00.000+00:00",
+          "week": 1,
+          "matchup": "vs DAL",
+          "result": "W 24-20",
+          "points": 18.4,
+          "baseline": 20.92061681,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        }
+      ],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "ceedee-lamb",
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "price": 117.02,
+      "change": -1.31,
+      "trend": [
+        4,
+        6,
+        5,
+        7,
+        8,
+        7,
+        10
+      ],
+      "espnId": "4241389",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241389.png",
+      "teamId": "6",
+      "history": [
+        {
+          "id": "401872930",
+          "season": 2026,
+          "date": "2026-09-14T00:20:00.000+00:00",
+          "week": 1,
+          "matchup": "@ NYG",
+          "result": "L 28-20",
+          "points": 15.4,
+          "baseline": 17.25542591,
+          "before": 105.32,
+          "price": 104.34,
+          "delta": -0.98,
+          "change": -0.93,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872944",
+          "season": 2026,
+          "date": "2026-09-20T20:25:00.000+00:00",
+          "week": 2,
+          "matchup": "vs WSH",
+          "result": "W 37-20",
+          "points": 35.3,
+          "baseline": 17.99875061,
+          "before": 104.34,
+          "price": 113.37,
+          "delta": 9.03,
+          "change": 8.65,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872960",
+          "season": 2026,
+          "date": "2026-09-27T20:25:00.000+00:00",
+          "week": 3,
+          "matchup": "vs BAL",
+          "result": "L 34-31",
+          "points": 20.2,
+          "baseline": 17.31398297,
+          "before": 113.37,
+          "price": 115.01,
+          "delta": 1.64,
+          "change": 1.45,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872967",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "@ HOU",
+          "result": "W 34-30",
+          "points": 41.3,
+          "baseline": 16.89511308,
+          "before": 115.01,
+          "price": 129.04,
+          "delta": 14.03,
+          "change": 12.2,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872980",
+          "season": 2026,
+          "date": "2026-10-09T00:15:00.000+00:00",
+          "week": 5,
+          "matchup": "vs TB",
+          "result": "L 24-16",
+          "points": 2.9,
+          "baseline": 19.12851916,
+          "before": 129.04,
+          "price": 118.57,
+          "delta": -10.47,
+          "change": -8.11,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873007",
+          "season": 2026,
+          "date": "2026-10-19T00:20:00.000+00:00",
+          "week": 6,
+          "matchup": "@ GB",
+          "result": "L 23-13",
+          "points": 16,
+          "baseline": 18.6060798,
+          "before": 118.57,
+          "price": 117.02,
+          "delta": -1.55,
+          "change": -1.31,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873009": {
+          "value": 18.52619078,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 7
+        },
+        "401873024": {
+          "value": 19.43214402,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873040": {
+          "value": 18.54563147,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873063": {
+          "value": 19.04798801,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873073": {
+          "value": 18.93175383,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873080": {
+          "value": 18.21140672,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873108": {
+          "value": 17.74311036,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873136": {
+          "value": 18.42548573,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873154": {
+          "value": 19.31439841,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873165": {
+          "value": 18.86039886,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873175": {
+          "value": 19.27434468,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-19T00:20:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "breece-hall",
+      "name": "Breece Hall",
+      "team": "NYJ",
+      "position": "RB",
+      "price": 86.44,
+      "change": -3.84,
+      "trend": [
+        4,
+        5,
+        4,
+        6,
+        5,
+        7,
+        8
+      ],
+      "espnId": "4427366",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4427366.png",
+      "teamId": "20",
+      "history": [
+        {
+          "id": "401872924",
+          "season": 2026,
+          "date": "2026-09-13T17:00:00.000+00:00",
+          "week": 1,
+          "matchup": "@ TEN",
+          "result": "W 23-10",
+          "points": 19.8,
+          "baseline": 16.49959332,
+          "before": 89.14,
+          "price": 90.61,
+          "delta": 1.47,
+          "change": 1.65,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872936",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "vs GB",
+          "result": "L 20-17 OT",
+          "points": 14.2,
+          "baseline": 15.79237533,
+          "before": 90.61,
+          "price": 89.89,
+          "delta": -0.72,
+          "change": -0.79,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872954",
+          "season": 2026,
+          "date": "2026-09-27T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "@ DET",
+          "result": "L 31-24",
+          "points": 8.5,
+          "baseline": 16.16674747,
+          "before": 89.89,
+          "price": 86.44,
+          "delta": -3.45,
+          "change": -3.84,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873029": {
+          "value": 15.403053,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873045": {
+          "value": 11.7110003,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873054": {
+          "value": 14.0538061,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873074": {
+          "value": 13.2120184,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873089": {
+          "value": 14.07375919,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873112": {
+          "value": 12.59650215,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873135": {
+          "value": 14.71949982,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873151": {
+          "value": 13.08043148,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873163": {
+          "value": 12.03541312,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873181": {
+          "value": 13.56882934,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-09-27T17:00:00.000+00:00",
+      "archive": [
+        {
+          "id": "401772850",
+          "season": 2025,
+          "date": "2025-10-05T17:00:00.000+00:00",
+          "week": 5,
+          "matchup": "vs DAL",
+          "result": "L 37-22",
+          "points": 17.5,
+          "baseline": 18.09761975,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772813",
+          "season": 2025,
+          "date": "2025-09-29T23:15:00.000+00:00",
+          "week": 4,
+          "matchup": "@ MIA",
+          "result": "L 27-21",
+          "points": 16.1,
+          "baseline": 16.09747861,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772840",
+          "season": 2025,
+          "date": "2025-09-21T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "@ TB",
+          "result": "L 29-27",
+          "points": 9.2,
+          "baseline": 15.93504395,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772727",
+          "season": 2025,
+          "date": "2025-09-14T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "vs BUF",
+          "result": "L 30-10",
+          "points": 5.8,
+          "baseline": 15.36173693,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        },
+        {
+          "id": "401772721",
+          "season": 2025,
+          "date": "2025-09-07T17:00:00.000+00:00",
+          "week": 1,
+          "matchup": "vs PIT",
+          "result": "L 34-32",
+          "points": 16.5,
+          "baseline": 12.60138067,
+          "before": null,
+          "price": null,
+          "delta": null,
+          "change": null,
+          "settlement": "archived",
+          "projectionSource": "historical-archive"
+        }
+      ],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "tee-higgins",
+      "name": "Tee Higgins",
+      "team": "CIN",
+      "position": "WR",
+      "price": 87.86,
+      "change": 6.3,
+      "trend": [
+        3,
+        4,
+        5,
+        4,
+        5,
+        6,
+        7
+      ],
+      "espnId": "4239993",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4239993.png",
+      "teamId": "4",
+      "history": [
+        {
+          "id": "401872925",
+          "season": 2026,
+          "date": "2026-09-13T17:00:00.000+00:00",
+          "week": 1,
+          "matchup": "vs TB",
+          "result": "W 33-27",
+          "points": 8.9,
+          "baseline": 12.96144831,
+          "before": 78.6,
+          "price": 77,
+          "delta": -1.6,
+          "change": -2.04,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-26T16:27:45.678Z",
+          "settledAt": "2026-10-26T16:27:45.678Z"
+        },
+        {
+          "id": "401872934",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "@ HOU",
+          "result": "W 20-6",
+          "points": 14.5,
+          "baseline": 12.31979834,
+          "before": 77,
+          "price": 77.84,
+          "delta": 0.84,
+          "change": 1.09,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-26T16:27:45.678Z",
+          "settledAt": "2026-10-26T16:27:45.678Z"
+        },
+        {
+          "id": "401872950",
+          "season": 2026,
+          "date": "2026-09-27T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "@ PIT",
+          "result": "L 30-27",
+          "points": 21,
+          "baseline": 12.68133182,
+          "before": 77.84,
+          "price": 81.08,
+          "delta": 3.24,
+          "change": 4.16,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-26T16:27:45.678Z",
+          "settledAt": "2026-10-26T16:27:45.678Z"
+        },
+        {
+          "id": "401872969",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "vs JAX",
+          "result": "L 22-17",
+          "points": 26.7,
+          "baseline": 13.66300699,
+          "before": 81.08,
+          "price": 86.37,
+          "delta": 5.29,
+          "change": 6.52,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-26T16:27:45.678Z",
+          "settledAt": "2026-10-26T16:27:45.678Z"
+        },
+        {
+          "id": "401872982",
+          "season": 2026,
+          "date": "2026-10-11T17:00:00.000+00:00",
+          "week": 5,
+          "matchup": "@ MIA",
+          "result": "W 31-24",
+          "points": 4.2,
+          "baseline": 12.80390889,
+          "before": 86.37,
+          "price": 82.65,
+          "delta": -3.72,
+          "change": -4.31,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-26T16:27:45.678Z",
+          "settledAt": "2026-10-26T16:27:45.678Z"
+        },
+        {
+          "id": "401873012",
+          "season": 2026,
+          "date": "2026-10-25T17:00:00.000+00:00",
+          "week": 7,
+          "matchup": "@ BAL",
+          "result": "W 35-13",
+          "points": 26.8,
+          "baseline": 14.18785516,
+          "before": 82.65,
+          "price": 87.86,
+          "delta": 5.21,
+          "change": 6.3,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-26T16:27:45.678Z",
+          "settledAt": "2026-10-26T16:27:45.678Z"
+        }
+      ],
+      "snapshots": {
+        "401873031": {
+          "value": 15.31198562,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873038": {
+          "value": 15.50003882,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873064": {
+          "value": 14.6428595,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873078": {
+          "value": 15.54633093,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873087": {
+          "value": 15.70535632,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873097": {
+          "value": 14.24697843,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873119": {
+          "value": 14.84900949,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873129": {
+          "value": 14.85020147,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873145": {
+          "value": 14.89741908,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873156": {
+          "value": 15.65390365,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873174": {
+          "value": 14.4368841,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-25T17:00:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "george-kittle",
+      "name": "George Kittle",
+      "team": "SF",
+      "position": "TE",
+      "price": 77.24,
+      "change": -0.94,
+      "trend": [
+        3,
+        4,
+        4,
+        5,
+        4,
+        6,
+        7
+      ],
+      "espnId": "3040151",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3040151.png",
+      "teamId": "25",
+      "history": [
+        {
+          "id": "401872657",
+          "season": 2026,
+          "date": "2026-09-11T00:35:00.000+00:00",
+          "week": 1,
+          "matchup": "vs LAR",
+          "result": "W 27-7",
+          "points": 3.2,
+          "baseline": 8.37113432,
+          "before": 72.31,
+          "price": 70.44,
+          "delta": -1.87,
+          "change": -2.59,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872942",
+          "season": 2026,
+          "date": "2026-09-20T20:25:00.000+00:00",
+          "week": 2,
+          "matchup": "vs MIA",
+          "result": "W 35-13",
+          "points": 18,
+          "baseline": 10.50388985,
+          "before": 70.44,
+          "price": 73.08,
+          "delta": 2.64,
+          "change": 3.75,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872958",
+          "season": 2026,
+          "date": "2026-09-27T20:05:00.000+00:00",
+          "week": 3,
+          "matchup": "vs ARI",
+          "result": "W 36-30",
+          "points": 26.2,
+          "baseline": 12.66907373,
+          "before": 73.08,
+          "price": 78.02,
+          "delta": 4.94,
+          "change": 6.76,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872975",
+          "season": 2026,
+          "date": "2026-10-04T20:25:00.000+00:00",
+          "week": 4,
+          "matchup": "vs DEN",
+          "result": "W 24-14",
+          "points": 17,
+          "baseline": 13.73000896,
+          "before": 78.02,
+          "price": 79.3,
+          "delta": 1.28,
+          "change": 1.64,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872992",
+          "season": 2026,
+          "date": "2026-10-11T20:25:00.000+00:00",
+          "week": 5,
+          "matchup": "@ SEA",
+          "result": "W 32-29",
+          "points": 7.4,
+          "baseline": 13.66373251,
+          "before": 79.3,
+          "price": 76.82,
+          "delta": -2.48,
+          "change": -3.13,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873008",
+          "season": 2026,
+          "date": "2026-10-20T00:15:00.000+00:00",
+          "week": 6,
+          "matchup": "vs WSH",
+          "result": "W 23-17",
+          "points": 17.9,
+          "baseline": 14.90771439,
+          "before": 76.82,
+          "price": 77.97,
+          "delta": 1.15,
+          "change": 1.5,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873017",
+          "season": 2026,
+          "date": "2026-10-25T17:00:00.000+00:00",
+          "week": 7,
+          "matchup": "@ ATL",
+          "result": "L 29-20",
+          "points": 14.8,
+          "baseline": 16.66123671,
+          "before": 77.97,
+          "price": 77.24,
+          "delta": -0.73,
+          "change": -0.94,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873047": {
+          "value": 15.76764207,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873063": {
+          "value": 15.55699299,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873077": {
+          "value": 13.42612412,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873091": {
+          "value": 14.09369476,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873095": {
+          "value": 14.7784007,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873120": {
+          "value": 14.62748204,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873124": {
+          "value": 14.59327663,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873153": {
+          "value": 14.61042931,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873170": {
+          "value": 14.27879276,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873184": {
+          "value": 15.15335689,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-25T17:00:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "travis-kelce",
+      "name": "Travis Kelce",
+      "team": "KC",
+      "position": "TE",
+      "price": 84.81,
+      "change": -0.84,
+      "trend": [
+        9,
+        8,
+        9,
+        7,
+        6,
+        7,
+        5
+      ],
+      "espnId": "15847",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15847.png",
+      "teamId": "12",
+      "history": [
+        {
+          "id": "401872931",
+          "season": 2026,
+          "date": "2026-09-15T00:15:00.000+00:00",
+          "week": 1,
+          "matchup": "vs DEN",
+          "result": "W 31-10",
+          "points": 10.1,
+          "baseline": 9.80925357,
+          "before": 83.45,
+          "price": 83.57,
+          "delta": 0.12,
+          "change": 0.14,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872945",
+          "season": 2026,
+          "date": "2026-09-21T00:20:00.000+00:00",
+          "week": 2,
+          "matchup": "vs IND",
+          "result": "W 33-30 OT",
+          "points": 25.1,
+          "baseline": 10.54742431,
+          "before": 83.57,
+          "price": 89.65,
+          "delta": 6.08,
+          "change": 7.28,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872952",
+          "season": 2026,
+          "date": "2026-09-27T17:00:00.000+00:00",
+          "week": 3,
+          "matchup": "@ MIA",
+          "result": "W 24-10",
+          "points": 13.9,
+          "baseline": 12.67518272,
+          "before": 89.65,
+          "price": 90.2,
+          "delta": 0.55,
+          "change": 0.61,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872976",
+          "season": 2026,
+          "date": "2026-10-04T20:25:00.000+00:00",
+          "week": 4,
+          "matchup": "@ LV",
+          "result": "W 30-27",
+          "points": 3.5,
+          "baseline": 11.78929532,
+          "before": 90.2,
+          "price": 86.46,
+          "delta": -3.74,
+          "change": -4.15,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873006",
+          "season": 2026,
+          "date": "2026-10-18T20:25:00.000+00:00",
+          "week": 6,
+          "matchup": "vs LAC",
+          "result": "W 22-6",
+          "points": 9.3,
+          "baseline": 11.44333257,
+          "before": 86.46,
+          "price": 85.53,
+          "delta": -0.93,
+          "change": -1.08,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873022",
+          "season": 2026,
+          "date": "2026-10-26T00:20:00.000+00:00",
+          "week": 7,
+          "matchup": "@ SEA",
+          "result": "L 20-3",
+          "points": 8.4,
+          "baseline": 10.08332908,
+          "before": 85.53,
+          "price": 84.81,
+          "delta": -0.72,
+          "change": -0.84,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-26T16:26:23.030Z"
+        }
+      ],
+      "snapshots": {
+        "401873022": {
+          "value": 10.08332908,
+          "capturedAt": "2026-10-25T21:36:13.420Z",
+          "season": 2026,
+          "week": 7
+        },
+        "401873033": {
+          "value": 9.29840347,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873045": {
+          "value": 9.92918996,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873058": {
+          "value": 10.16564172,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873067": {
+          "value": 10.23004526,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873082": {
+          "value": 10.62942991,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873096": {
+          "value": 9.74463189,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873119": {
+          "value": 10.02162894,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873139": {
+          "value": 10.28979118,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873153": {
+          "value": 10.10096145,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873158": {
+          "value": 9.82853142,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873178": {
+          "value": 10.65134256,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-26T00:20:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "tyreek-hill",
+      "name": "Tyreek Hill",
+      "team": "MIA",
+      "position": "WR",
+      "price": 91.25,
+      "change": -2.1,
+      "trend": [
+        12,
+        10,
+        11,
+        8,
+        9,
+        6,
+        4
+      ],
+      "espnId": "3116406",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3116406.png",
+      "history": [],
+      "snapshots": {},
+      "complete": false,
+      "error": "The stats provider returned an unexpected game-log format."
+    },
+    {
+      "id": "jalen-hurts",
+      "name": "Jalen Hurts",
+      "team": "PHI",
+      "position": "QB",
+      "price": 110.38,
+      "change": -1.52,
+      "trend": [
+        5,
+        6,
+        4,
+        8,
+        7,
+        9,
+        10
+      ],
+      "espnId": "4040715",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
+      "teamId": "21",
+      "history": [
+        {
+          "id": "401872929",
+          "season": 2026,
+          "date": "2026-09-13T20:25:00.000+00:00",
+          "week": 1,
+          "matchup": "vs WSH",
+          "result": "W 24-22",
+          "points": 24.72,
+          "baseline": 21.05270363,
+          "before": 118.8,
+          "price": 120.98,
+          "delta": 2.18,
+          "change": 1.84,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872939",
+          "season": 2026,
+          "date": "2026-09-20T17:00:00.000+00:00",
+          "week": 2,
+          "matchup": "@ TEN",
+          "result": "W 24-20",
+          "points": 16.16,
+          "baseline": 19.94761142,
+          "before": 120.98,
+          "price": 118.69,
+          "delta": -2.29,
+          "change": -1.89,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872963",
+          "season": 2026,
+          "date": "2026-09-29T00:15:00.000+00:00",
+          "week": 3,
+          "matchup": "@ CHI",
+          "result": "L 27-7",
+          "points": 12.62,
+          "baseline": 19.80032742,
+          "before": 118.69,
+          "price": 114.43,
+          "delta": -4.26,
+          "change": -3.59,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872970",
+          "season": 2026,
+          "date": "2026-10-04T17:00:00.000+00:00",
+          "week": 4,
+          "matchup": "vs LAR",
+          "result": "L 24-20",
+          "points": 13.52,
+          "baseline": 17.6206991,
+          "before": 114.43,
+          "price": 112.08,
+          "delta": -2.35,
+          "change": -2.05,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872981",
+          "season": 2026,
+          "date": "2026-10-11T13:30:00.000+00:00",
+          "week": 5,
+          "matchup": "vs JAX",
+          "result": "L 19-17",
+          "points": 13,
+          "baseline": 16.04030597,
+          "before": 112.08,
+          "price": 110.38,
+          "delta": -1.7,
+          "change": -1.52,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873009": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 7
+        },
+        "401873035": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 8
+        },
+        "401873044": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873076": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873080": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873104": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873114": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873125": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873140": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873170": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873182": {
+          "value": 0,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-11T13:30:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    },
+    {
+      "id": "christian-mccaffrey",
+      "name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "price": 110.78,
+      "change": 0.05,
+      "trend": [
+        5,
+        6,
+        7,
+        6,
+        8,
+        7,
+        9
+      ],
+      "espnId": "3117251",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3117251.png",
+      "teamId": "25",
+      "history": [
+        {
+          "id": "401872657",
+          "season": 2026,
+          "date": "2026-09-11T00:35:00.000+00:00",
+          "week": 1,
+          "matchup": "vs LAR",
+          "result": "W 27-7",
+          "points": 13.8,
+          "baseline": 18.51940924,
+          "before": 110.42,
+          "price": 107.81,
+          "delta": -2.61,
+          "change": -2.36,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872942",
+          "season": 2026,
+          "date": "2026-09-20T20:25:00.000+00:00",
+          "week": 2,
+          "matchup": "vs MIA",
+          "result": "W 35-13",
+          "points": 22.6,
+          "baseline": 21.48391582,
+          "before": 107.81,
+          "price": 108.41,
+          "delta": 0.6,
+          "change": 0.56,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872958",
+          "season": 2026,
+          "date": "2026-09-27T20:05:00.000+00:00",
+          "week": 3,
+          "matchup": "vs ARI",
+          "result": "W 36-30",
+          "points": 21.6,
+          "baseline": 20.89696268,
+          "before": 108.41,
+          "price": 108.79,
+          "delta": 0.38,
+          "change": 0.35,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872975",
+          "season": 2026,
+          "date": "2026-10-04T20:25:00.000+00:00",
+          "week": 4,
+          "matchup": "vs DEN",
+          "result": "W 24-14",
+          "points": 16,
+          "baseline": 20.26230802,
+          "before": 108.79,
+          "price": 106.47,
+          "delta": -2.32,
+          "change": -2.13,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401872992",
+          "season": 2026,
+          "date": "2026-10-11T20:25:00.000+00:00",
+          "week": 5,
+          "matchup": "@ SEA",
+          "result": "W 32-29",
+          "points": 17.3,
+          "baseline": 18.71810674,
+          "before": 106.47,
+          "price": 105.72,
+          "delta": -0.75,
+          "change": -0.7,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873008",
+          "season": 2026,
+          "date": "2026-10-20T00:15:00.000+00:00",
+          "week": 6,
+          "matchup": "vs WSH",
+          "result": "W 23-17",
+          "points": 30.7,
+          "baseline": 21.21833637,
+          "before": 105.72,
+          "price": 110.73,
+          "delta": 5.01,
+          "change": 4.74,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        },
+        {
+          "id": "401873017",
+          "season": 2026,
+          "date": "2026-10-25T17:00:00.000+00:00",
+          "week": 7,
+          "matchup": "@ ATL",
+          "result": "L 29-20",
+          "points": 22,
+          "baseline": 21.91775079,
+          "before": 110.73,
+          "price": 110.78,
+          "delta": 0.05,
+          "change": 0.05,
+          "settlement": "settled",
+          "projectionSource": "historical-bootstrap",
+          "projectionCapturedAt": "2026-10-25T21:36:13.420Z",
+          "settledAt": "2026-10-25T21:36:13.420Z"
+        }
+      ],
+      "snapshots": {
+        "401873047": {
+          "value": 22.46481121,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 9
+        },
+        "401873063": {
+          "value": 20.8254036,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 10
+        },
+        "401873077": {
+          "value": 17.61497463,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 11
+        },
+        "401873091": {
+          "value": 17.67324517,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 12
+        },
+        "401873095": {
+          "value": 19.61282824,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 13
+        },
+        "401873120": {
+          "value": 19.1224998,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 14
+        },
+        "401873124": {
+          "value": 19.71879385,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 15
+        },
+        "401873153": {
+          "value": 18.0466036,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 16
+        },
+        "401873170": {
+          "value": 19.79410315,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 17
+        },
+        "401873184": {
+          "value": 21.52423537,
+          "capturedAt": "2026-10-26T16:27:45.678Z",
+          "season": 2026,
+          "week": 18
+        }
+      },
+      "complete": true,
+      "quoteDate": "2026-10-25T17:00:00.000+00:00",
+      "archive": [],
+      "checkedThrough": "2026-10-26T16:27:45.678Z",
+      "error": null
+    }
+  ],
+  "schedule": [
+    {
+      "id": "401873009",
+      "date": "2026-10-27T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "pre",
+      "completed": false,
+      "status": "10/26 - 8:15 PM EDT",
+      "teams": [
+        "21",
+        "6"
+      ],
+      "matchup": "DAL @ PHI",
+      "home": "PHI",
+      "away": "DAL"
+    },
+    {
+      "id": "401872656",
+      "date": "2026-09-10T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "26",
+        "17"
+      ],
+      "matchup": "NE @ SEA",
+      "home": "SEA",
+      "away": "NE"
+    },
+    {
+      "id": "401872657",
+      "date": "2026-09-11T00:35Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "14",
+        "25"
+      ],
+      "matchup": "SF VS LAR",
+      "home": "LAR",
+      "away": "SF"
+    },
+    {
+      "id": "401872925",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "4",
+        "27"
+      ],
+      "matchup": "TB @ CIN",
+      "home": "CIN",
+      "away": "TB"
+    },
+    {
+      "id": "401872923",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "8",
+        "18"
+      ],
+      "matchup": "NO @ DET",
+      "home": "DET",
+      "away": "NO"
+    },
+    {
+      "id": "401872924",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "10",
+        "20"
+      ],
+      "matchup": "NYJ @ TEN",
+      "home": "TEN",
+      "away": "NYJ"
+    },
+    {
+      "id": "401872659",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "11",
+        "33"
+      ],
+      "matchup": "BAL @ IND",
+      "home": "IND",
+      "away": "BAL"
+    },
+    {
+      "id": "401872658",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "23",
+        "1"
+      ],
+      "matchup": "ATL @ PIT",
+      "home": "PIT",
+      "away": "ATL"
+    },
+    {
+      "id": "401872661",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "29",
+        "3"
+      ],
+      "matchup": "CHI @ CAR",
+      "home": "CAR",
+      "away": "CHI"
+    },
+    {
+      "id": "401872922",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "30",
+        "5"
+      ],
+      "matchup": "CLE @ JAX",
+      "home": "JAX",
+      "away": "CLE"
+    },
+    {
+      "id": "401872660",
+      "date": "2026-09-13T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "34",
+        "2"
+      ],
+      "matchup": "BUF @ HOU",
+      "home": "HOU",
+      "away": "BUF"
+    },
+    {
+      "id": "401872928",
+      "date": "2026-09-13T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "13",
+        "15"
+      ],
+      "matchup": "MIA @ LV",
+      "home": "LV",
+      "away": "MIA"
+    },
+    {
+      "id": "401872927",
+      "date": "2026-09-13T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "16",
+        "9"
+      ],
+      "matchup": "GB @ MIN",
+      "home": "MIN",
+      "away": "GB"
+    },
+    {
+      "id": "401872929",
+      "date": "2026-09-13T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "21",
+        "28"
+      ],
+      "matchup": "WSH @ PHI",
+      "home": "PHI",
+      "away": "WSH"
+    },
+    {
+      "id": "401872926",
+      "date": "2026-09-13T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "24",
+        "22"
+      ],
+      "matchup": "ARI @ LAC",
+      "home": "LAC",
+      "away": "ARI"
+    },
+    {
+      "id": "401872930",
+      "date": "2026-09-14T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "19",
+        "6"
+      ],
+      "matchup": "DAL @ NYG",
+      "home": "NYG",
+      "away": "DAL"
+    },
+    {
+      "id": "401872931",
+      "date": "2026-09-15T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 1,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "12",
+        "7"
+      ],
+      "matchup": "DEN @ KC",
+      "home": "KC",
+      "away": "DEN"
+    },
+    {
+      "id": "401872932",
+      "date": "2026-09-18T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "2",
+        "8"
+      ],
+      "matchup": "DET @ BUF",
+      "home": "BUF",
+      "away": "DET"
+    },
+    {
+      "id": "401872933",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "1",
+        "29"
+      ],
+      "matchup": "CAR @ ATL",
+      "home": "ATL",
+      "away": "CAR"
+    },
+    {
+      "id": "401872937",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "3",
+        "16"
+      ],
+      "matchup": "MIN @ CHI",
+      "home": "CHI",
+      "away": "MIN"
+    },
+    {
+      "id": "401872939",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "10",
+        "21"
+      ],
+      "matchup": "PHI @ TEN",
+      "home": "TEN",
+      "away": "PHI"
+    },
+    {
+      "id": "401872946",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "17",
+        "23"
+      ],
+      "matchup": "PIT @ NE",
+      "home": "NE",
+      "away": "PIT"
+    },
+    {
+      "id": "401872936",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "20",
+        "9"
+      ],
+      "matchup": "GB @ NYJ",
+      "home": "NYJ",
+      "away": "GB"
+    },
+    {
+      "id": "401872935",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "27",
+        "5"
+      ],
+      "matchup": "CLE @ TB",
+      "home": "TB",
+      "away": "CLE"
+    },
+    {
+      "id": "401872938",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "33",
+        "18"
+      ],
+      "matchup": "NO @ BAL",
+      "home": "BAL",
+      "away": "NO"
+    },
+    {
+      "id": "401872934",
+      "date": "2026-09-20T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "34",
+        "4"
+      ],
+      "matchup": "CIN @ HOU",
+      "home": "HOU",
+      "away": "CIN"
+    },
+    {
+      "id": "401872940",
+      "date": "2026-09-20T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "7",
+        "30"
+      ],
+      "matchup": "JAX @ DEN",
+      "home": "DEN",
+      "away": "JAX"
+    },
+    {
+      "id": "401872941",
+      "date": "2026-09-20T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "24",
+        "13"
+      ],
+      "matchup": "LV @ LAC",
+      "home": "LAC",
+      "away": "LV"
+    },
+    {
+      "id": "401872944",
+      "date": "2026-09-20T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "6",
+        "28"
+      ],
+      "matchup": "WSH @ DAL",
+      "home": "DAL",
+      "away": "WSH"
+    },
+    {
+      "id": "401872943",
+      "date": "2026-09-20T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "22",
+        "26"
+      ],
+      "matchup": "SEA @ ARI",
+      "home": "ARI",
+      "away": "SEA"
+    },
+    {
+      "id": "401872942",
+      "date": "2026-09-20T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "25",
+        "15"
+      ],
+      "matchup": "MIA @ SF",
+      "home": "SF",
+      "away": "MIA"
+    },
+    {
+      "id": "401872945",
+      "date": "2026-09-21T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "12",
+        "11"
+      ],
+      "matchup": "IND @ KC",
+      "home": "KC",
+      "away": "IND"
+    },
+    {
+      "id": "401872947",
+      "date": "2026-09-22T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 2,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "14",
+        "19"
+      ],
+      "matchup": "NYG @ LAR",
+      "home": "LAR",
+      "away": "NYG"
+    },
+    {
+      "id": "401872948",
+      "date": "2026-09-25T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "9",
+        "1"
+      ],
+      "matchup": "ATL @ GB",
+      "home": "GB",
+      "away": "ATL"
+    },
+    {
+      "id": "401872953",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "2",
+        "24"
+      ],
+      "matchup": "LAC @ BUF",
+      "home": "BUF",
+      "away": "LAC"
+    },
+    {
+      "id": "401872949",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "5",
+        "29"
+      ],
+      "matchup": "CAR @ CLE",
+      "home": "CLE",
+      "away": "CAR"
+    },
+    {
+      "id": "401872954",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "8",
+        "20"
+      ],
+      "matchup": "NYJ @ DET",
+      "home": "DET",
+      "away": "NYJ"
+    },
+    {
+      "id": "401872951",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "11",
+        "34"
+      ],
+      "matchup": "HOU @ IND",
+      "home": "IND",
+      "away": "HOU"
+    },
+    {
+      "id": "401872952",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "15",
+        "12"
+      ],
+      "matchup": "KC @ MIA",
+      "home": "MIA",
+      "away": "KC"
+    },
+    {
+      "id": "401872956",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "19",
+        "10"
+      ],
+      "matchup": "TEN @ NYG",
+      "home": "NYG",
+      "away": "TEN"
+    },
+    {
+      "id": "401872950",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "23",
+        "4"
+      ],
+      "matchup": "CIN @ PIT",
+      "home": "PIT",
+      "away": "CIN"
+    },
+    {
+      "id": "401872955",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "28",
+        "26"
+      ],
+      "matchup": "SEA @ WSH",
+      "home": "WSH",
+      "away": "SEA"
+    },
+    {
+      "id": "401872957",
+      "date": "2026-09-27T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "30",
+        "17"
+      ],
+      "matchup": "NE @ JAX",
+      "home": "JAX",
+      "away": "NE"
+    },
+    {
+      "id": "401872958",
+      "date": "2026-09-27T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "25",
+        "22"
+      ],
+      "matchup": "ARI @ SF",
+      "home": "SF",
+      "away": "ARI"
+    },
+    {
+      "id": "401872959",
+      "date": "2026-09-27T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "27",
+        "16"
+      ],
+      "matchup": "MIN @ TB",
+      "home": "TB",
+      "away": "MIN"
+    },
+    {
+      "id": "401872960",
+      "date": "2026-09-27T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "6",
+        "33"
+      ],
+      "matchup": "BAL VS DAL",
+      "home": "DAL",
+      "away": "BAL"
+    },
+    {
+      "id": "401872961",
+      "date": "2026-09-27T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "18",
+        "13"
+      ],
+      "matchup": "LV @ NO",
+      "home": "NO",
+      "away": "LV"
+    },
+    {
+      "id": "401872962",
+      "date": "2026-09-28T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "7",
+        "14"
+      ],
+      "matchup": "LAR @ DEN",
+      "home": "DEN",
+      "away": "LAR"
+    },
+    {
+      "id": "401872963",
+      "date": "2026-09-29T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 3,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "3",
+        "21"
+      ],
+      "matchup": "PHI @ CHI",
+      "home": "CHI",
+      "away": "PHI"
+    },
+    {
+      "id": "401872964",
+      "date": "2026-10-02T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "5",
+        "23"
+      ],
+      "matchup": "PIT @ CLE",
+      "home": "CLE",
+      "away": "PIT"
+    },
+    {
+      "id": "401872965",
+      "date": "2026-10-04T13:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "28",
+        "11"
+      ],
+      "matchup": "IND VS WSH",
+      "home": "WSH",
+      "away": "IND"
+    },
+    {
+      "id": "401872971",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "2",
+        "17"
+      ],
+      "matchup": "NE @ BUF",
+      "home": "BUF",
+      "away": "NE"
+    },
+    {
+      "id": "401872972",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "3",
+        "20"
+      ],
+      "matchup": "NYJ @ CHI",
+      "home": "CHI",
+      "away": "NYJ"
+    },
+    {
+      "id": "401872969",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "4",
+        "30"
+      ],
+      "matchup": "JAX @ CIN",
+      "home": "CIN",
+      "away": "JAX"
+    },
+    {
+      "id": "401872966",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "19",
+        "22"
+      ],
+      "matchup": "ARI @ NYG",
+      "home": "NYG",
+      "away": "ARI"
+    },
+    {
+      "id": "401872970",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "21",
+        "14"
+      ],
+      "matchup": "LAR @ PHI",
+      "home": "PHI",
+      "away": "LAR"
+    },
+    {
+      "id": "401872968",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "27",
+        "9"
+      ],
+      "matchup": "GB @ TB",
+      "home": "TB",
+      "away": "GB"
+    },
+    {
+      "id": "401872973",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "33",
+        "10"
+      ],
+      "matchup": "TEN @ BAL",
+      "home": "BAL",
+      "away": "TEN"
+    },
+    {
+      "id": "401872967",
+      "date": "2026-10-04T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "34",
+        "6"
+      ],
+      "matchup": "DAL @ HOU",
+      "home": "HOU",
+      "away": "DAL"
+    },
+    {
+      "id": "401872974",
+      "date": "2026-10-04T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "16",
+        "15"
+      ],
+      "matchup": "MIA @ MIN",
+      "home": "MIN",
+      "away": "MIA"
+    },
+    {
+      "id": "401872976",
+      "date": "2026-10-04T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "13",
+        "12"
+      ],
+      "matchup": "KC @ LV",
+      "home": "LV",
+      "away": "KC"
+    },
+    {
+      "id": "401872975",
+      "date": "2026-10-04T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "25",
+        "7"
+      ],
+      "matchup": "DEN @ SF",
+      "home": "SF",
+      "away": "DEN"
+    },
+    {
+      "id": "401872977",
+      "date": "2026-10-04T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "26",
+        "24"
+      ],
+      "matchup": "LAC @ SEA",
+      "home": "SEA",
+      "away": "LAC"
+    },
+    {
+      "id": "401872978",
+      "date": "2026-10-05T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "29",
+        "8"
+      ],
+      "matchup": "DET @ CAR",
+      "home": "CAR",
+      "away": "DET"
+    },
+    {
+      "id": "401872979",
+      "date": "2026-10-06T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 4,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "18",
+        "1"
+      ],
+      "matchup": "ATL @ NO",
+      "home": "NO",
+      "away": "ATL"
+    },
+    {
+      "id": "401872980",
+      "date": "2026-10-09T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "6",
+        "27"
+      ],
+      "matchup": "TB @ DAL",
+      "home": "DAL",
+      "away": "TB"
+    },
+    {
+      "id": "401872981",
+      "date": "2026-10-11T13:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "30",
+        "21"
+      ],
+      "matchup": "PHI VS JAX",
+      "home": "JAX",
+      "away": "PHI"
+    },
+    {
+      "id": "401872990",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "9",
+        "3"
+      ],
+      "matchup": "CHI @ GB",
+      "home": "GB",
+      "away": "CHI"
+    },
+    {
+      "id": "401872984",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "10",
+        "34"
+      ],
+      "matchup": "HOU @ TEN",
+      "home": "TEN",
+      "away": "HOU"
+    },
+    {
+      "id": "401872982",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "15",
+        "4"
+      ],
+      "matchup": "CIN @ MIA",
+      "home": "MIA",
+      "away": "CIN"
+    },
+    {
+      "id": "401872986",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "17",
+        "13"
+      ],
+      "matchup": "LV @ NE",
+      "home": "NE",
+      "away": "LV"
+    },
+    {
+      "id": "401872987",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "18",
+        "16"
+      ],
+      "matchup": "MIN @ NO",
+      "home": "NO",
+      "away": "MIN"
+    },
+    {
+      "id": "401872983",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "20",
+        "5"
+      ],
+      "matchup": "CLE @ NYJ",
+      "home": "NYJ",
+      "away": "CLE"
+    },
+    {
+      "id": "401872985",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "23",
+        "11"
+      ],
+      "matchup": "IND @ PIT",
+      "home": "PIT",
+      "away": "IND"
+    },
+    {
+      "id": "401872988",
+      "date": "2026-10-11T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "28",
+        "19"
+      ],
+      "matchup": "NYG @ WSH",
+      "home": "WSH",
+      "away": "NYG"
+    },
+    {
+      "id": "401872989",
+      "date": "2026-10-11T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "24",
+        "7"
+      ],
+      "matchup": "DEN @ LAC",
+      "home": "LAC",
+      "away": "DEN"
+    },
+    {
+      "id": "401872991",
+      "date": "2026-10-11T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "22",
+        "8"
+      ],
+      "matchup": "DET @ ARI",
+      "home": "ARI",
+      "away": "DET"
+    },
+    {
+      "id": "401872992",
+      "date": "2026-10-11T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "26",
+        "25"
+      ],
+      "matchup": "SF @ SEA",
+      "home": "SEA",
+      "away": "SF"
+    },
+    {
+      "id": "401872993",
+      "date": "2026-10-12T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "1",
+        "33"
+      ],
+      "matchup": "BAL @ ATL",
+      "home": "ATL",
+      "away": "BAL"
+    },
+    {
+      "id": "401872994",
+      "date": "2026-10-13T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 5,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "14",
+        "2"
+      ],
+      "matchup": "BUF @ LAR",
+      "home": "LAR",
+      "away": "BUF"
+    },
+    {
+      "id": "401872995",
+      "date": "2026-10-16T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "7",
+        "26"
+      ],
+      "matchup": "SEA @ DEN",
+      "home": "DEN",
+      "away": "SEA"
+    },
+    {
+      "id": "401872996",
+      "date": "2026-10-18T13:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "30",
+        "34"
+      ],
+      "matchup": "HOU VS JAX",
+      "home": "JAX",
+      "away": "HOU"
+    },
+    {
+      "id": "401872999",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "1",
+        "3"
+      ],
+      "matchup": "CHI @ ATL",
+      "home": "ATL",
+      "away": "CHI"
+    },
+    {
+      "id": "401872997",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "5",
+        "33"
+      ],
+      "matchup": "BAL @ CLE",
+      "home": "CLE",
+      "away": "BAL"
+    },
+    {
+      "id": "401873003",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "11",
+        "10"
+      ],
+      "matchup": "TEN @ IND",
+      "home": "IND",
+      "away": "TEN"
+    },
+    {
+      "id": "401873001",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "17",
+        "20"
+      ],
+      "matchup": "NYJ @ NE",
+      "home": "NE",
+      "away": "NYJ"
+    },
+    {
+      "id": "401873000",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "19",
+        "18"
+      ],
+      "matchup": "NO @ NYG",
+      "home": "NYG",
+      "away": "NO"
+    },
+    {
+      "id": "401872998",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "21",
+        "29"
+      ],
+      "matchup": "CAR @ PHI",
+      "home": "PHI",
+      "away": "CAR"
+    },
+    {
+      "id": "401873002",
+      "date": "2026-10-18T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "27",
+        "23"
+      ],
+      "matchup": "PIT @ TB",
+      "home": "TB",
+      "away": "PIT"
+    },
+    {
+      "id": "401873004",
+      "date": "2026-10-18T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "14",
+        "22"
+      ],
+      "matchup": "ARI @ LAR",
+      "home": "LAR",
+      "away": "ARI"
+    },
+    {
+      "id": "401873006",
+      "date": "2026-10-18T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "12",
+        "24"
+      ],
+      "matchup": "LAC @ KC",
+      "home": "KC",
+      "away": "LAC"
+    },
+    {
+      "id": "401873005",
+      "date": "2026-10-18T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "13",
+        "2"
+      ],
+      "matchup": "BUF @ LV",
+      "home": "LV",
+      "away": "BUF"
+    },
+    {
+      "id": "401873007",
+      "date": "2026-10-19T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "9",
+        "6"
+      ],
+      "matchup": "DAL @ GB",
+      "home": "GB",
+      "away": "DAL"
+    },
+    {
+      "id": "401873008",
+      "date": "2026-10-20T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 6,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "25",
+        "28"
+      ],
+      "matchup": "WSH @ SF",
+      "home": "SF",
+      "away": "WSH"
+    },
+    {
+      "id": "401873010",
+      "date": "2026-10-23T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "3",
+        "17"
+      ],
+      "matchup": "NE @ CHI",
+      "home": "CHI",
+      "away": "NE"
+    },
+    {
+      "id": "401873011",
+      "date": "2026-10-25T13:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "18",
+        "23"
+      ],
+      "matchup": "PIT VS NO",
+      "home": "NO",
+      "away": "PIT"
+    },
+    {
+      "id": "401873017",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "1",
+        "25"
+      ],
+      "matchup": "SF @ ATL",
+      "home": "ATL",
+      "away": "SF"
+    },
+    {
+      "id": "401873013",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "10",
+        "5"
+      ],
+      "matchup": "CLE @ TEN",
+      "home": "TEN",
+      "away": "CLE"
+    },
+    {
+      "id": "401873014",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "16",
+        "11"
+      ],
+      "matchup": "IND @ MIN",
+      "home": "MIN",
+      "away": "IND"
+    },
+    {
+      "id": "401873015",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "20",
+        "15"
+      ],
+      "matchup": "MIA @ NYJ",
+      "home": "NYJ",
+      "away": "MIA"
+    },
+    {
+      "id": "401873018",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "29",
+        "27"
+      ],
+      "matchup": "TB @ CAR",
+      "home": "CAR",
+      "away": "TB"
+    },
+    {
+      "id": "401873012",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "33",
+        "4"
+      ],
+      "matchup": "CIN @ BAL",
+      "home": "BAL",
+      "away": "CIN"
+    },
+    {
+      "id": "401873016",
+      "date": "2026-10-25T17:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final/OT",
+      "teams": [
+        "34",
+        "19"
+      ],
+      "matchup": "NYG @ HOU",
+      "home": "HOU",
+      "away": "NYG"
+    },
+    {
+      "id": "401873019",
+      "date": "2026-10-25T20:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "22",
+        "7"
+      ],
+      "matchup": "DEN @ ARI",
+      "home": "ARI",
+      "away": "DEN"
+    },
+    {
+      "id": "401873020",
+      "date": "2026-10-25T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "8",
+        "9"
+      ],
+      "matchup": "GB @ DET",
+      "home": "DET",
+      "away": "GB"
+    },
+    {
+      "id": "401873021",
+      "date": "2026-10-25T20:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "13",
+        "14"
+      ],
+      "matchup": "LAR @ LV",
+      "home": "LV",
+      "away": "LAR"
+    },
+    {
+      "id": "401873022",
+      "date": "2026-10-26T00:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 7,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "26",
+        "12"
+      ],
+      "matchup": "KC @ SEA",
+      "home": "SEA",
+      "away": "KC"
+    },
+    {
+      "id": "401873023",
+      "date": "2026-10-30T00:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "10/29 - 8:15 PM EDT",
+      "teams": [
+        "9",
+        "29"
+      ],
+      "matchup": "CAR @ GB",
+      "home": "GB",
+      "away": "CAR"
+    },
+    {
+      "id": "401873026",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "2",
+        "33"
+      ],
+      "matchup": "BAL @ BUF",
+      "home": "BUF",
+      "away": "BAL"
+    },
+    {
+      "id": "401873031",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "4",
+        "10"
+      ],
+      "matchup": "TEN @ CIN",
+      "home": "CIN",
+      "away": "TEN"
+    },
+    {
+      "id": "401873024",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "6",
+        "22"
+      ],
+      "matchup": "ARI @ DAL",
+      "home": "DAL",
+      "away": "ARI"
+    },
+    {
+      "id": "401873030",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "8",
+        "16"
+      ],
+      "matchup": "MIN @ DET",
+      "home": "DET",
+      "away": "MIN"
+    },
+    {
+      "id": "401873029",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "20",
+        "13"
+      ],
+      "matchup": "LV @ NYJ",
+      "home": "NYJ",
+      "away": "LV"
+    },
+    {
+      "id": "401873027",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "23",
+        "5"
+      ],
+      "matchup": "CLE @ PIT",
+      "home": "PIT",
+      "away": "CLE"
+    },
+    {
+      "id": "401873025",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "27",
+        "1"
+      ],
+      "matchup": "ATL @ TB",
+      "home": "TB",
+      "away": "ATL"
+    },
+    {
+      "id": "401873028",
+      "date": "2026-11-01T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 1:00 PM EST",
+      "teams": [
+        "30",
+        "11"
+      ],
+      "matchup": "IND @ JAX",
+      "home": "JAX",
+      "away": "IND"
+    },
+    {
+      "id": "401873032",
+      "date": "2026-11-01T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 4:05 PM EST",
+      "teams": [
+        "14",
+        "24"
+      ],
+      "matchup": "LAC @ LAR",
+      "home": "LAR",
+      "away": "LAC"
+    },
+    {
+      "id": "401873033",
+      "date": "2026-11-01T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 4:25 PM EST",
+      "teams": [
+        "7",
+        "12"
+      ],
+      "matchup": "KC @ DEN",
+      "home": "DEN",
+      "away": "KC"
+    },
+    {
+      "id": "401873034",
+      "date": "2026-11-01T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 4:25 PM EST",
+      "teams": [
+        "15",
+        "17"
+      ],
+      "matchup": "NE @ MIA",
+      "home": "MIA",
+      "away": "NE"
+    },
+    {
+      "id": "401873035",
+      "date": "2026-11-02T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/1 - 8:20 PM EST",
+      "teams": [
+        "28",
+        "21"
+      ],
+      "matchup": "PHI @ WSH",
+      "home": "WSH",
+      "away": "PHI"
+    },
+    {
+      "id": "401873036",
+      "date": "2026-11-03T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 8,
+      "state": "pre",
+      "completed": false,
+      "status": "11/2 - 8:15 PM EST",
+      "teams": [
+        "26",
+        "3"
+      ],
+      "matchup": "CHI @ SEA",
+      "home": "SEA",
+      "away": "CHI"
+    },
+    {
+      "id": "401873037",
+      "date": "2026-11-06T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/5 - 8:15 PM EST",
+      "teams": [
+        "33",
+        "30"
+      ],
+      "matchup": "JAX @ BAL",
+      "home": "BAL",
+      "away": "JAX"
+    },
+    {
+      "id": "401873038",
+      "date": "2026-11-08T14:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 9:30 AM EST",
+      "teams": [
+        "1",
+        "4"
+      ],
+      "matchup": "CIN VS ATL",
+      "home": "ATL",
+      "away": "CIN"
+    },
+    {
+      "id": "401873040",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "11",
+        "6"
+      ],
+      "matchup": "DAL @ IND",
+      "home": "IND",
+      "away": "DAL"
+    },
+    {
+      "id": "401873045",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "12",
+        "20"
+      ],
+      "matchup": "NYJ @ KC",
+      "home": "KC",
+      "away": "NYJ"
+    },
+    {
+      "id": "401873042",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "15",
+        "8"
+      ],
+      "matchup": "DET @ MIA",
+      "home": "MIA",
+      "away": "DET"
+    },
+    {
+      "id": "401873039",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "18",
+        "5"
+      ],
+      "matchup": "CLE @ NO",
+      "home": "NO",
+      "away": "CLE"
+    },
+    {
+      "id": "401873044",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "21",
+        "19"
+      ],
+      "matchup": "NYG @ PHI",
+      "home": "PHI",
+      "away": "NYG"
+    },
+    {
+      "id": "401873043",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "28",
+        "14"
+      ],
+      "matchup": "LAR @ WSH",
+      "home": "WSH",
+      "away": "LAR"
+    },
+    {
+      "id": "401873041",
+      "date": "2026-11-08T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 1:00 PM EST",
+      "teams": [
+        "29",
+        "7"
+      ],
+      "matchup": "DEN @ CAR",
+      "home": "CAR",
+      "away": "DEN"
+    },
+    {
+      "id": "401873046",
+      "date": "2026-11-08T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 4:05 PM EST",
+      "teams": [
+        "24",
+        "34"
+      ],
+      "matchup": "HOU @ LAC",
+      "home": "LAC",
+      "away": "HOU"
+    },
+    {
+      "id": "401873047",
+      "date": "2026-11-08T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 4:05 PM EST",
+      "teams": [
+        "25",
+        "13"
+      ],
+      "matchup": "LV @ SF",
+      "home": "SF",
+      "away": "LV"
+    },
+    {
+      "id": "401873049",
+      "date": "2026-11-08T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 4:25 PM EST",
+      "teams": [
+        "17",
+        "9"
+      ],
+      "matchup": "GB @ NE",
+      "home": "NE",
+      "away": "GB"
+    },
+    {
+      "id": "401873048",
+      "date": "2026-11-08T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 4:25 PM EST",
+      "teams": [
+        "26",
+        "22"
+      ],
+      "matchup": "ARI @ SEA",
+      "home": "SEA",
+      "away": "ARI"
+    },
+    {
+      "id": "401873050",
+      "date": "2026-11-09T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/8 - 8:20 PM EST",
+      "teams": [
+        "3",
+        "27"
+      ],
+      "matchup": "TB @ CHI",
+      "home": "CHI",
+      "away": "TB"
+    },
+    {
+      "id": "401873051",
+      "date": "2026-11-10T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 9,
+      "state": "pre",
+      "completed": false,
+      "status": "11/9 - 8:15 PM EST",
+      "teams": [
+        "16",
+        "2"
+      ],
+      "matchup": "BUF @ MIN",
+      "home": "MIN",
+      "away": "BUF"
+    },
+    {
+      "id": "401873052",
+      "date": "2026-11-13T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/12 - 8:15 PM EST",
+      "teams": [
+        "19",
+        "28"
+      ],
+      "matchup": "WSH @ NYG",
+      "home": "NYG",
+      "away": "WSH"
+    },
+    {
+      "id": "401873053",
+      "date": "2026-11-15T14:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 9:30 AM EST",
+      "teams": [
+        "8",
+        "17"
+      ],
+      "matchup": "NE VS DET",
+      "home": "DET",
+      "away": "NE"
+    },
+    {
+      "id": "401873058",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "1",
+        "12"
+      ],
+      "matchup": "KC @ ATL",
+      "home": "ATL",
+      "away": "KC"
+    },
+    {
+      "id": "401873056",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "5",
+        "34"
+      ],
+      "matchup": "HOU @ CLE",
+      "home": "CLE",
+      "away": "HOU"
+    },
+    {
+      "id": "401873060",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "9",
+        "16"
+      ],
+      "matchup": "MIN @ GB",
+      "home": "GB",
+      "away": "MIN"
+    },
+    {
+      "id": "401873057",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "10",
+        "30"
+      ],
+      "matchup": "JAX @ TEN",
+      "home": "TEN",
+      "away": "JAX"
+    },
+    {
+      "id": "401873059",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "11",
+        "15"
+      ],
+      "matchup": "MIA @ IND",
+      "home": "IND",
+      "away": "MIA"
+    },
+    {
+      "id": "401873055",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "18",
+        "29"
+      ],
+      "matchup": "CAR @ NO",
+      "home": "NO",
+      "away": "CAR"
+    },
+    {
+      "id": "401873054",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 1:00 PM EST",
+      "teams": [
+        "20",
+        "2"
+      ],
+      "matchup": "BUF @ NYJ",
+      "home": "NYJ",
+      "away": "BUF"
+    },
+    {
+      "id": "401873062",
+      "date": "2026-11-15T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 4:05 PM EST",
+      "teams": [
+        "13",
+        "26"
+      ],
+      "matchup": "SEA @ LV",
+      "home": "LV",
+      "away": "SEA"
+    },
+    {
+      "id": "401873061",
+      "date": "2026-11-15T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 4:05 PM EST",
+      "teams": [
+        "22",
+        "14"
+      ],
+      "matchup": "LAR @ ARI",
+      "home": "ARI",
+      "away": "LAR"
+    },
+    {
+      "id": "401873063",
+      "date": "2026-11-15T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 4:25 PM EST",
+      "teams": [
+        "6",
+        "25"
+      ],
+      "matchup": "SF @ DAL",
+      "home": "DAL",
+      "away": "SF"
+    },
+    {
+      "id": "401873064",
+      "date": "2026-11-16T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/15 - 8:20 PM EST",
+      "teams": [
+        "4",
+        "23"
+      ],
+      "matchup": "PIT @ CIN",
+      "home": "CIN",
+      "away": "PIT"
+    },
+    {
+      "id": "401873065",
+      "date": "2026-11-17T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "pre",
+      "completed": false,
+      "status": "11/16 - 8:15 PM EST",
+      "teams": [
+        "33",
+        "24"
+      ],
+      "matchup": "LAC @ BAL",
+      "home": "BAL",
+      "away": "LAC"
+    },
+    {
+      "id": "401873066",
+      "date": "2026-11-20T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/19 - 8:15 PM EST",
+      "teams": [
+        "34",
+        "11"
+      ],
+      "matchup": "IND @ HOU",
+      "home": "HOU",
+      "away": "IND"
+    },
+    {
+      "id": "401873070",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "2",
+        "15"
+      ],
+      "matchup": "MIA @ BUF",
+      "home": "BUF",
+      "away": "MIA"
+    },
+    {
+      "id": "401873071",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "3",
+        "18"
+      ],
+      "matchup": "NO @ CHI",
+      "home": "CHI",
+      "away": "NO"
+    },
+    {
+      "id": "401873073",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "6",
+        "10"
+      ],
+      "matchup": "TEN @ DAL",
+      "home": "DAL",
+      "away": "TEN"
+    },
+    {
+      "id": "401873072",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "8",
+        "27"
+      ],
+      "matchup": "TB @ DET",
+      "home": "DET",
+      "away": "TB"
+    },
+    {
+      "id": "401873067",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "12",
+        "22"
+      ],
+      "matchup": "ARI @ KC",
+      "home": "KC",
+      "away": "ARI"
+    },
+    {
+      "id": "401873069",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "19",
+        "30"
+      ],
+      "matchup": "JAX @ NYG",
+      "home": "NYG",
+      "away": "JAX"
+    },
+    {
+      "id": "401873068",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 1:00 PM EST",
+      "teams": [
+        "29",
+        "33"
+      ],
+      "matchup": "BAL @ CAR",
+      "home": "CAR",
+      "away": "BAL"
+    },
+    {
+      "id": "401873074",
+      "date": "2026-11-22T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 4:05 PM EST",
+      "teams": [
+        "24",
+        "20"
+      ],
+      "matchup": "NYJ @ LAC",
+      "home": "LAC",
+      "away": "NYJ"
+    },
+    {
+      "id": "401873075",
+      "date": "2026-11-22T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 4:25 PM EST",
+      "teams": [
+        "7",
+        "13"
+      ],
+      "matchup": "LV @ DEN",
+      "home": "DEN",
+      "away": "LV"
+    },
+    {
+      "id": "401873076",
+      "date": "2026-11-22T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 4:25 PM EST",
+      "teams": [
+        "21",
+        "23"
+      ],
+      "matchup": "PIT @ PHI",
+      "home": "PHI",
+      "away": "PIT"
+    },
+    {
+      "id": "401873077",
+      "date": "2026-11-23T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/22 - 8:20 PM EST",
+      "teams": [
+        "25",
+        "16"
+      ],
+      "matchup": "MIN VS SF",
+      "home": "SF",
+      "away": "MIN"
+    },
+    {
+      "id": "401873078",
+      "date": "2026-11-24T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "pre",
+      "completed": false,
+      "status": "11/23 - 8:15 PM EST",
+      "teams": [
+        "28",
+        "4"
+      ],
+      "matchup": "CIN @ WSH",
+      "home": "WSH",
+      "away": "CIN"
+    },
+    {
+      "id": "401873079",
+      "date": "2026-11-26T01:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/25 - 8:00 PM EST",
+      "teams": [
+        "14",
+        "9"
+      ],
+      "matchup": "GB @ LAR",
+      "home": "LAR",
+      "away": "GB"
+    },
+    {
+      "id": "401873081",
+      "date": "2026-11-26T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/26 - 1:00 PM EST",
+      "teams": [
+        "8",
+        "3"
+      ],
+      "matchup": "CHI @ DET",
+      "home": "DET",
+      "away": "CHI"
+    },
+    {
+      "id": "401873080",
+      "date": "2026-11-26T21:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/26 - 4:30 PM EST",
+      "teams": [
+        "6",
+        "21"
+      ],
+      "matchup": "PHI @ DAL",
+      "home": "DAL",
+      "away": "PHI"
+    },
+    {
+      "id": "401873082",
+      "date": "2026-11-27T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/26 - 8:20 PM EST",
+      "teams": [
+        "2",
+        "12"
+      ],
+      "matchup": "KC @ BUF",
+      "home": "BUF",
+      "away": "KC"
+    },
+    {
+      "id": "401873083",
+      "date": "2026-11-27T20:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/27 - 3:00 PM EST",
+      "teams": [
+        "23",
+        "7"
+      ],
+      "matchup": "DEN @ PIT",
+      "home": "PIT",
+      "away": "DEN"
+    },
+    {
+      "id": "401873087",
+      "date": "2026-11-29T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 1:00 PM EST",
+      "teams": [
+        "4",
+        "18"
+      ],
+      "matchup": "NO @ CIN",
+      "home": "CIN",
+      "away": "NO"
+    },
+    {
+      "id": "401873086",
+      "date": "2026-11-29T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 1:00 PM EST",
+      "teams": [
+        "5",
+        "13"
+      ],
+      "matchup": "LV @ CLE",
+      "home": "CLE",
+      "away": "LV"
+    },
+    {
+      "id": "401873088",
+      "date": "2026-11-29T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 1:00 PM EST",
+      "teams": [
+        "11",
+        "19"
+      ],
+      "matchup": "NYG @ IND",
+      "home": "IND",
+      "away": "NYG"
+    },
+    {
+      "id": "401873089",
+      "date": "2026-11-29T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 1:00 PM EST",
+      "teams": [
+        "15",
+        "20"
+      ],
+      "matchup": "NYJ @ MIA",
+      "home": "MIA",
+      "away": "NYJ"
+    },
+    {
+      "id": "401873084",
+      "date": "2026-11-29T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 1:00 PM EST",
+      "teams": [
+        "16",
+        "1"
+      ],
+      "matchup": "ATL @ MIN",
+      "home": "MIN",
+      "away": "ATL"
+    },
+    {
+      "id": "401873085",
+      "date": "2026-11-29T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 1:00 PM EST",
+      "teams": [
+        "34",
+        "33"
+      ],
+      "matchup": "BAL @ HOU",
+      "home": "HOU",
+      "away": "BAL"
+    },
+    {
+      "id": "401873090",
+      "date": "2026-11-29T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 4:05 PM EST",
+      "teams": [
+        "30",
+        "10"
+      ],
+      "matchup": "TEN @ JAX",
+      "home": "JAX",
+      "away": "TEN"
+    },
+    {
+      "id": "401873092",
+      "date": "2026-11-29T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 4:25 PM EST",
+      "teams": [
+        "22",
+        "28"
+      ],
+      "matchup": "WSH @ ARI",
+      "home": "ARI",
+      "away": "WSH"
+    },
+    {
+      "id": "401873091",
+      "date": "2026-11-29T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 4:25 PM EST",
+      "teams": [
+        "25",
+        "26"
+      ],
+      "matchup": "SEA @ SF",
+      "home": "SF",
+      "away": "SEA"
+    },
+    {
+      "id": "401873093",
+      "date": "2026-11-30T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/29 - 8:20 PM EST",
+      "teams": [
+        "24",
+        "17"
+      ],
+      "matchup": "NE @ LAC",
+      "home": "LAC",
+      "away": "NE"
+    },
+    {
+      "id": "401873094",
+      "date": "2026-12-01T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 12,
+      "state": "pre",
+      "completed": false,
+      "status": "11/30 - 8:15 PM EST",
+      "teams": [
+        "27",
+        "29"
+      ],
+      "matchup": "CAR @ TB",
+      "home": "TB",
+      "away": "CAR"
+    },
+    {
+      "id": "401873096",
+      "date": "2026-12-04T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/3 - 8:15 PM EST",
+      "teams": [
+        "14",
+        "12"
+      ],
+      "matchup": "KC @ LAR",
+      "home": "LAR",
+      "away": "KC"
+    },
+    {
+      "id": "401873098",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "1",
+        "8"
+      ],
+      "matchup": "DET @ ATL",
+      "home": "ATL",
+      "away": "DET"
+    },
+    {
+      "id": "401873100",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "3",
+        "30"
+      ],
+      "matchup": "JAX @ CHI",
+      "home": "CHI",
+      "away": "JAX"
+    },
+    {
+      "id": "401873097",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "5",
+        "4"
+      ],
+      "matchup": "CIN @ CLE",
+      "home": "CLE",
+      "away": "CIN"
+    },
+    {
+      "id": "401873102",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "10",
+        "28"
+      ],
+      "matchup": "WSH @ TEN",
+      "home": "TEN",
+      "away": "WSH"
+    },
+    {
+      "id": "401873099",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "18",
+        "9"
+      ],
+      "matchup": "GB @ NO",
+      "home": "NO",
+      "away": "GB"
+    },
+    {
+      "id": "401873095",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "19",
+        "25"
+      ],
+      "matchup": "SF @ NYG",
+      "home": "NYG",
+      "away": "SF"
+    },
+    {
+      "id": "401873101",
+      "date": "2026-12-06T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 1:00 PM EST",
+      "teams": [
+        "27",
+        "24"
+      ],
+      "matchup": "LAC @ TB",
+      "home": "TB",
+      "away": "LAC"
+    },
+    {
+      "id": "401873103",
+      "date": "2026-12-06T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 4:05 PM EST",
+      "teams": [
+        "7",
+        "15"
+      ],
+      "matchup": "MIA @ DEN",
+      "home": "DEN",
+      "away": "MIA"
+    },
+    {
+      "id": "401873104",
+      "date": "2026-12-06T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 4:05 PM EST",
+      "teams": [
+        "22",
+        "21"
+      ],
+      "matchup": "PHI @ ARI",
+      "home": "ARI",
+      "away": "PHI"
+    },
+    {
+      "id": "401873106",
+      "date": "2026-12-06T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 4:25 PM EST",
+      "teams": [
+        "16",
+        "29"
+      ],
+      "matchup": "CAR @ MIN",
+      "home": "MIN",
+      "away": "CAR"
+    },
+    {
+      "id": "401873105",
+      "date": "2026-12-06T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 4:25 PM EST",
+      "teams": [
+        "17",
+        "2"
+      ],
+      "matchup": "BUF @ NE",
+      "home": "NE",
+      "away": "BUF"
+    },
+    {
+      "id": "401873107",
+      "date": "2026-12-07T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/6 - 8:20 PM EST",
+      "teams": [
+        "23",
+        "34"
+      ],
+      "matchup": "HOU @ PIT",
+      "home": "PIT",
+      "away": "HOU"
+    },
+    {
+      "id": "401873108",
+      "date": "2026-12-08T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 13,
+      "state": "pre",
+      "completed": false,
+      "status": "12/7 - 8:15 PM EST",
+      "teams": [
+        "26",
+        "6"
+      ],
+      "matchup": "DAL @ SEA",
+      "home": "SEA",
+      "away": "DAL"
+    },
+    {
+      "id": "401873109",
+      "date": "2026-12-11T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/10 - 8:15 PM EST",
+      "teams": [
+        "17",
+        "16"
+      ],
+      "matchup": "MIN @ NE",
+      "home": "NE",
+      "away": "MIN"
+    },
+    {
+      "id": "401873110",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "5",
+        "1"
+      ],
+      "matchup": "ATL @ CLE",
+      "home": "CLE",
+      "away": "ATL"
+    },
+    {
+      "id": "401873117",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "8",
+        "10"
+      ],
+      "matchup": "TEN @ DET",
+      "home": "DET",
+      "away": "TEN"
+    },
+    {
+      "id": "401873111",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "15",
+        "3"
+      ],
+      "matchup": "CHI @ MIA",
+      "home": "MIA",
+      "away": "CHI"
+    },
+    {
+      "id": "401873112",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "20",
+        "7"
+      ],
+      "matchup": "DEN @ NYJ",
+      "home": "NYJ",
+      "away": "DEN"
+    },
+    {
+      "id": "401873114",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "21",
+        "11"
+      ],
+      "matchup": "IND @ PHI",
+      "home": "PHI",
+      "away": "IND"
+    },
+    {
+      "id": "401873113",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "28",
+        "34"
+      ],
+      "matchup": "HOU @ WSH",
+      "home": "WSH",
+      "away": "HOU"
+    },
+    {
+      "id": "401873115",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "29",
+        "18"
+      ],
+      "matchup": "NO @ CAR",
+      "home": "CAR",
+      "away": "NO"
+    },
+    {
+      "id": "401873116",
+      "date": "2026-12-13T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 1:00 PM EST",
+      "teams": [
+        "33",
+        "27"
+      ],
+      "matchup": "TB @ BAL",
+      "home": "BAL",
+      "away": "TB"
+    },
+    {
+      "id": "401873118",
+      "date": "2026-12-13T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 4:05 PM EST",
+      "teams": [
+        "13",
+        "24"
+      ],
+      "matchup": "LAC @ LV",
+      "home": "LV",
+      "away": "LAC"
+    },
+    {
+      "id": "401873119",
+      "date": "2026-12-13T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 4:25 PM EST",
+      "teams": [
+        "4",
+        "12"
+      ],
+      "matchup": "KC @ CIN",
+      "home": "CIN",
+      "away": "KC"
+    },
+    {
+      "id": "401873120",
+      "date": "2026-12-13T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 4:25 PM EST",
+      "teams": [
+        "25",
+        "14"
+      ],
+      "matchup": "LAR @ SF",
+      "home": "SF",
+      "away": "LAR"
+    },
+    {
+      "id": "401873121",
+      "date": "2026-12-13T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 4:25 PM EST",
+      "teams": [
+        "26",
+        "19"
+      ],
+      "matchup": "NYG @ SEA",
+      "home": "SEA",
+      "away": "NYG"
+    },
+    {
+      "id": "401873122",
+      "date": "2026-12-14T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/13 - 8:20 PM EST",
+      "teams": [
+        "9",
+        "2"
+      ],
+      "matchup": "BUF @ GB",
+      "home": "GB",
+      "away": "BUF"
+    },
+    {
+      "id": "401873123",
+      "date": "2026-12-15T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 14,
+      "state": "pre",
+      "completed": false,
+      "status": "12/14 - 8:15 PM EST",
+      "teams": [
+        "30",
+        "23"
+      ],
+      "matchup": "PIT @ JAX",
+      "home": "JAX",
+      "away": "PIT"
+    },
+    {
+      "id": "401873124",
+      "date": "2026-12-18T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/17 - 8:15 PM EST",
+      "teams": [
+        "24",
+        "25"
+      ],
+      "matchup": "SF @ LAC",
+      "home": "LAC",
+      "away": "SF"
+    },
+    {
+      "id": "401873125",
+      "date": "2026-12-19T22:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/19 - 5:00 PM EST",
+      "teams": [
+        "21",
+        "26"
+      ],
+      "matchup": "SEA @ PHI",
+      "home": "PHI",
+      "away": "SEA"
+    },
+    {
+      "id": "401873126",
+      "date": "2026-12-20T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/19 - 8:20 PM EST",
+      "teams": [
+        "2",
+        "3"
+      ],
+      "matchup": "CHI @ BUF",
+      "home": "BUF",
+      "away": "CHI"
+    },
+    {
+      "id": "401873133",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "9",
+        "15"
+      ],
+      "matchup": "MIA @ GB",
+      "home": "GB",
+      "away": "MIA"
+    },
+    {
+      "id": "401873131",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "10",
+        "11"
+      ],
+      "matchup": "IND @ TEN",
+      "home": "TEN",
+      "away": "IND"
+    },
+    {
+      "id": "401873130",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "19",
+        "5"
+      ],
+      "matchup": "CLE @ NYG",
+      "home": "NYG",
+      "away": "CLE"
+    },
+    {
+      "id": "401873128",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "23",
+        "33"
+      ],
+      "matchup": "BAL @ PIT",
+      "home": "PIT",
+      "away": "BAL"
+    },
+    {
+      "id": "401873134",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "27",
+        "18"
+      ],
+      "matchup": "NO @ TB",
+      "home": "TB",
+      "away": "NO"
+    },
+    {
+      "id": "401873127",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "28",
+        "1"
+      ],
+      "matchup": "ATL @ WSH",
+      "home": "WSH",
+      "away": "ATL"
+    },
+    {
+      "id": "401873129",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "29",
+        "4"
+      ],
+      "matchup": "CIN @ CAR",
+      "home": "CAR",
+      "away": "CIN"
+    },
+    {
+      "id": "401873132",
+      "date": "2026-12-20T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 1:00 PM EST",
+      "teams": [
+        "34",
+        "30"
+      ],
+      "matchup": "JAX @ HOU",
+      "home": "HOU",
+      "away": "JAX"
+    },
+    {
+      "id": "401873135",
+      "date": "2026-12-20T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 4:05 PM EST",
+      "teams": [
+        "22",
+        "20"
+      ],
+      "matchup": "NYJ @ ARI",
+      "home": "ARI",
+      "away": "NYJ"
+    },
+    {
+      "id": "401873137",
+      "date": "2026-12-20T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 4:25 PM EST",
+      "teams": [
+        "13",
+        "7"
+      ],
+      "matchup": "DEN @ LV",
+      "home": "LV",
+      "away": "DEN"
+    },
+    {
+      "id": "401873136",
+      "date": "2026-12-20T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 4:25 PM EST",
+      "teams": [
+        "14",
+        "6"
+      ],
+      "matchup": "DAL @ LAR",
+      "home": "LAR",
+      "away": "DAL"
+    },
+    {
+      "id": "401873138",
+      "date": "2026-12-21T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/20 - 8:20 PM EST",
+      "teams": [
+        "16",
+        "8"
+      ],
+      "matchup": "DET @ MIN",
+      "home": "MIN",
+      "away": "DET"
+    },
+    {
+      "id": "401873139",
+      "date": "2026-12-22T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 15,
+      "state": "pre",
+      "completed": false,
+      "status": "12/21 - 8:15 PM EST",
+      "teams": [
+        "12",
+        "17"
+      ],
+      "matchup": "NE @ KC",
+      "home": "KC",
+      "away": "NE"
+    },
+    {
+      "id": "401873140",
+      "date": "2026-12-25T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/24 - 8:15 PM EST",
+      "teams": [
+        "21",
+        "34"
+      ],
+      "matchup": "HOU @ PHI",
+      "home": "PHI",
+      "away": "HOU"
+    },
+    {
+      "id": "401873141",
+      "date": "2026-12-25T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/25 - 1:00 PM EST",
+      "teams": [
+        "3",
+        "9"
+      ],
+      "matchup": "GB @ CHI",
+      "home": "CHI",
+      "away": "GB"
+    },
+    {
+      "id": "401873142",
+      "date": "2026-12-25T21:30Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/25 - 4:30 PM EST",
+      "teams": [
+        "7",
+        "2"
+      ],
+      "matchup": "BUF @ DEN",
+      "home": "DEN",
+      "away": "BUF"
+    },
+    {
+      "id": "401873143",
+      "date": "2026-12-26T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/25 - 8:15 PM EST",
+      "teams": [
+        "26",
+        "14"
+      ],
+      "matchup": "LAR @ SEA",
+      "home": "SEA",
+      "away": "LAR"
+    },
+    {
+      "id": "401873146",
+      "date": "2026-12-27T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "1",
+        "27"
+      ],
+      "matchup": "TB @ ATL",
+      "home": "ATL",
+      "away": "TB"
+    },
+    {
+      "id": "401873145",
+      "date": "2026-12-27T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "11",
+        "4"
+      ],
+      "matchup": "CIN @ IND",
+      "home": "IND",
+      "away": "CIN"
+    },
+    {
+      "id": "401873147",
+      "date": "2026-12-27T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "16",
+        "28"
+      ],
+      "matchup": "WSH @ MIN",
+      "home": "MIN",
+      "away": "WSH"
+    },
+    {
+      "id": "401873144",
+      "date": "2026-12-27T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "23",
+        "29"
+      ],
+      "matchup": "CAR @ PIT",
+      "home": "PIT",
+      "away": "CAR"
+    },
+    {
+      "id": "401873150",
+      "date": "2026-12-27T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 1:00 PM EST",
+      "teams": [
+        "15",
+        "24"
+      ],
+      "matchup": "LAC @ MIA",
+      "home": "MIA",
+      "away": "LAC"
+    },
+    {
+      "id": "401873148",
+      "date": "2026-12-27T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 1:00 PM EST",
+      "teams": [
+        "18",
+        "22"
+      ],
+      "matchup": "ARI @ NO",
+      "home": "NO",
+      "away": "ARI"
+    },
+    {
+      "id": "401873151",
+      "date": "2026-12-27T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 1:00 PM EST",
+      "teams": [
+        "20",
+        "17"
+      ],
+      "matchup": "NE @ NYJ",
+      "home": "NYJ",
+      "away": "NE"
+    },
+    {
+      "id": "401873149",
+      "date": "2026-12-27T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 1:00 PM EST",
+      "teams": [
+        "33",
+        "5"
+      ],
+      "matchup": "CLE @ BAL",
+      "home": "BAL",
+      "away": "CLE"
+    },
+    {
+      "id": "401873152",
+      "date": "2026-12-27T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 4:05 PM EST",
+      "teams": [
+        "13",
+        "10"
+      ],
+      "matchup": "TEN @ LV",
+      "home": "LV",
+      "away": "TEN"
+    },
+    {
+      "id": "401873153",
+      "date": "2026-12-27T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 4:25 PM EST",
+      "teams": [
+        "12",
+        "25"
+      ],
+      "matchup": "SF @ KC",
+      "home": "KC",
+      "away": "SF"
+    },
+    {
+      "id": "401873154",
+      "date": "2026-12-28T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/27 - 8:20 PM EST",
+      "teams": [
+        "6",
+        "30"
+      ],
+      "matchup": "JAX @ DAL",
+      "home": "DAL",
+      "away": "JAX"
+    },
+    {
+      "id": "401873155",
+      "date": "2026-12-29T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 16,
+      "state": "pre",
+      "completed": false,
+      "status": "12/28 - 8:15 PM EST",
+      "teams": [
+        "8",
+        "19"
+      ],
+      "matchup": "NYG @ DET",
+      "home": "DET",
+      "away": "NYG"
+    },
+    {
+      "id": "401873156",
+      "date": "2027-01-01T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "12/31 - 8:15 PM EST",
+      "teams": [
+        "4",
+        "33"
+      ],
+      "matchup": "BAL @ CIN",
+      "home": "CIN",
+      "away": "BAL"
+    },
+    {
+      "id": "401873157",
+      "date": "2027-01-03T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "17",
+        "7"
+      ],
+      "matchup": "DEN @ NE",
+      "home": "NE",
+      "away": "DEN"
+    },
+    {
+      "id": "401873158",
+      "date": "2027-01-03T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "24",
+        "12"
+      ],
+      "matchup": "KC @ LAC",
+      "home": "LAC",
+      "away": "KC"
+    },
+    {
+      "id": "401873159",
+      "date": "2027-01-03T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "27",
+        "14"
+      ],
+      "matchup": "LAR @ TB",
+      "home": "TB",
+      "away": "LAR"
+    },
+    {
+      "id": "401873160",
+      "date": "2027-01-03T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "30",
+        "28"
+      ],
+      "matchup": "WSH @ JAX",
+      "home": "JAX",
+      "away": "WSH"
+    },
+    {
+      "id": "401873164",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "1",
+        "18"
+      ],
+      "matchup": "NO @ ATL",
+      "home": "ATL",
+      "away": "NO"
+    },
+    {
+      "id": "401873162",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "5",
+        "11"
+      ],
+      "matchup": "IND @ CLE",
+      "home": "CLE",
+      "away": "IND"
+    },
+    {
+      "id": "401873165",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "6",
+        "19"
+      ],
+      "matchup": "NYG @ DAL",
+      "home": "DAL",
+      "away": "NYG"
+    },
+    {
+      "id": "401873166",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "10",
+        "23"
+      ],
+      "matchup": "PIT @ TEN",
+      "home": "TEN",
+      "away": "PIT"
+    },
+    {
+      "id": "401873161",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "15",
+        "2"
+      ],
+      "matchup": "BUF @ MIA",
+      "home": "MIA",
+      "away": "BUF"
+    },
+    {
+      "id": "401873163",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "20",
+        "16"
+      ],
+      "matchup": "MIN @ NYJ",
+      "home": "NYJ",
+      "away": "MIN"
+    },
+    {
+      "id": "401873167",
+      "date": "2027-01-03T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 1:00 PM EST",
+      "teams": [
+        "29",
+        "26"
+      ],
+      "matchup": "SEA @ CAR",
+      "home": "CAR",
+      "away": "SEA"
+    },
+    {
+      "id": "401873168",
+      "date": "2027-01-03T21:05Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 4:05 PM EST",
+      "teams": [
+        "22",
+        "13"
+      ],
+      "matchup": "LV @ ARI",
+      "home": "ARI",
+      "away": "LV"
+    },
+    {
+      "id": "401873169",
+      "date": "2027-01-03T21:25Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 4:25 PM EST",
+      "teams": [
+        "3",
+        "8"
+      ],
+      "matchup": "DET @ CHI",
+      "home": "CHI",
+      "away": "DET"
+    },
+    {
+      "id": "401873170",
+      "date": "2027-01-04T01:20Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/3 - 8:20 PM EST",
+      "teams": [
+        "25",
+        "21"
+      ],
+      "matchup": "PHI @ SF",
+      "home": "SF",
+      "away": "PHI"
+    },
+    {
+      "id": "401873171",
+      "date": "2027-01-05T01:15Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 17,
+      "state": "pre",
+      "completed": false,
+      "status": "1/4 - 8:15 PM EST",
+      "teams": [
+        "9",
+        "34"
+      ],
+      "matchup": "HOU @ GB",
+      "home": "GB",
+      "away": "HOU"
+    },
+    {
+      "id": "401873181",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "2",
+        "20"
+      ],
+      "matchup": "NYJ @ BUF",
+      "home": "BUF",
+      "away": "NYJ"
+    },
+    {
+      "id": "401873174",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "4",
+        "5"
+      ],
+      "matchup": "CLE @ CIN",
+      "home": "CIN",
+      "away": "CLE"
+    },
+    {
+      "id": "401873179",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "7",
+        "24"
+      ],
+      "matchup": "LAC @ DEN",
+      "home": "DEN",
+      "away": "LAC"
+    },
+    {
+      "id": "401873176",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "9",
+        "8"
+      ],
+      "matchup": "DET @ GB",
+      "home": "GB",
+      "away": "DET"
+    },
+    {
+      "id": "401873177",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "11",
+        "30"
+      ],
+      "matchup": "JAX @ IND",
+      "home": "IND",
+      "away": "JAX"
+    },
+    {
+      "id": "401873178",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "12",
+        "13"
+      ],
+      "matchup": "LV @ KC",
+      "home": "KC",
+      "away": "LV"
+    },
+    {
+      "id": "401873185",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "14",
+        "26"
+      ],
+      "matchup": "SEA @ LAR",
+      "home": "LAR",
+      "away": "SEA"
+    },
+    {
+      "id": "401873173",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "16",
+        "3"
+      ],
+      "matchup": "CHI @ MIN",
+      "home": "MIN",
+      "away": "CHI"
+    },
+    {
+      "id": "401873180",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "17",
+        "15"
+      ],
+      "matchup": "MIA @ NE",
+      "home": "NE",
+      "away": "MIA"
+    },
+    {
+      "id": "401873186",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "18",
+        "27"
+      ],
+      "matchup": "TB @ NO",
+      "home": "NO",
+      "away": "TB"
+    },
+    {
+      "id": "401873182",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "19",
+        "21"
+      ],
+      "matchup": "PHI @ NYG",
+      "home": "NYG",
+      "away": "PHI"
+    },
+    {
+      "id": "401873184",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "22",
+        "25"
+      ],
+      "matchup": "SF @ ARI",
+      "home": "ARI",
+      "away": "SF"
+    },
+    {
+      "id": "401873175",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "28",
+        "6"
+      ],
+      "matchup": "DAL @ WSH",
+      "home": "WSH",
+      "away": "DAL"
+    },
+    {
+      "id": "401873172",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "29",
+        "1"
+      ],
+      "matchup": "ATL @ CAR",
+      "home": "CAR",
+      "away": "ATL"
+    },
+    {
+      "id": "401873183",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "33",
+        "23"
+      ],
+      "matchup": "PIT @ BAL",
+      "home": "BAL",
+      "away": "PIT"
+    },
+    {
+      "id": "401873187",
+      "date": "2027-01-10T05:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 18,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "34",
+        "10"
+      ],
+      "matchup": "TEN @ HOU",
+      "home": "HOU",
+      "away": "TEN"
+    },
+    {
+      "id": "401872910",
+      "date": "2027-01-16T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 1,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872911",
+      "date": "2027-01-16T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 1,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872912",
+      "date": "2027-01-17T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 1,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872913",
+      "date": "2027-01-17T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 1,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872914",
+      "date": "2027-01-17T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 1,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872915",
+      "date": "2027-01-18T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 1,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872916",
+      "date": "2027-01-23T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 2,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872917",
+      "date": "2027-01-23T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 2,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872918",
+      "date": "2027-01-24T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 2,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872919",
+      "date": "2027-01-24T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 2,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872920",
+      "date": "2027-01-31T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 3,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401872921",
+      "date": "2027-01-31T05:00Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 3,
+      "state": "pre",
+      "completed": false,
+      "status": "TBD",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD @ TBD",
+      "home": "TBD",
+      "away": "TBD"
+    },
+    {
+      "id": "401873270",
+      "date": "2027-02-14T23:30Z",
+      "season": 2026,
+      "seasonType": "3",
+      "week": 4,
+      "state": "pre",
+      "completed": false,
+      "status": "2/14 - 6:30 PM EST",
+      "teams": [
+        "-1",
+        "-2"
+      ],
+      "matchup": "TBD VS TBD",
+      "home": "TBD",
+      "away": "TBD"
+    }
+  ]
+}

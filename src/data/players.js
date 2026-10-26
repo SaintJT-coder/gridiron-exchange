@@ -11,7 +11,7 @@ export const players = [
   { id:'saquon-barkley', name:'Saquon Barkley', team:'PHI', position:'RB', price:96.21, change:8.7, trend:[4,3,7,6,9,10,12], espnId:'3929630', headshot:espn('3929630') },
   { id:'ceedee-lamb', name:'CeeDee Lamb', team:'DAL', position:'WR', price:105.32, change:5.6, trend:[4,6,5,7,8,7,10], espnId:'4241389', headshot:espn('4241389') },
   { id:'breece-hall', name:'Breece Hall', team:'NYJ', position:'RB', price:89.14, change:4.2, trend:[4,5,4,6,5,7,8], espnId:'4427366', headshot:espn('4427366') },
-  { id:'tee-higgins', name:'Tee Higgins', team:'CIN', position:'WR', price:78.60, change:3.8, trend:[3,4,5,4,5,6,7], espnId:'4239996', headshot:espn('4239996') },
+  { id:'tee-higgins', name:'Tee Higgins', team:'CIN', position:'WR', price:78.60, change:3.8, trend:[3,4,5,4,5,6,7], espnId:'4239993', headshot:espn('4239993') },
   { id:'george-kittle', name:'George Kittle', team:'SF', position:'TE', price:72.31, change:2.9, trend:[3,4,4,5,4,6,7], espnId:'3040151', headshot:espn('3040151') },
   { id:'travis-kelce', name:'Travis Kelce', team:'KC', position:'TE', price:83.45, change:-1.4, trend:[9,8,9,7,6,7,5], espnId:'15847', headshot:espn('15847') },
   { id:'tyreek-hill', name:'Tyreek Hill', team:'MIA', position:'WR', price:91.25, change:-2.1, trend:[12,10,11,8,9,6,4], espnId:'3116406', headshot:espn('3116406') },

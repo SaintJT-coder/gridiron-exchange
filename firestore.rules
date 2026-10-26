@@ -1,0 +1,32 @@
+rules_version = '2';
+// Private paperBackups/{uid}: uid (immutable), revision (positive integer),
+// payload (opaque JSON backup, <=500 KB; decoded and validated by the client),
+// createdAt (immutable timestamp), updatedAt (server timestamp).
+// This is a personal paper-account backup, not an authoritative trading balance.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuthenticated() { return request.auth != null; }
+    function isOwner(uid) { return isAuthenticated() && request.auth.uid == uid; }
+    function uidUnchanged() { return request.resource.data.uid == request.auth.uid; }
+    function uidNotModified() { return request.resource.data.uid == resource.data.uid; }
+    function validBackup() {
+      let d = request.resource.data;
+      return d.keys().hasAll(['uid','revision','payload','createdAt','updatedAt'])
+        && d.keys().hasOnly(['uid','revision','payload','createdAt','updatedAt'])
+        && d.uid is string && d.uid.size() > 0 && d.uid.size() <= 128
+        && d.revision is int && d.revision > 0 && d.revision < 2147483647
+        && d.payload is string && d.payload.size() > 20 && d.payload.size() <= 500000
+        && d.createdAt is timestamp && d.updatedAt == request.time;
+    }
+    match /paperBackups/{uid} {
+      allow get: if isOwner(uid);
+      allow list, delete: if false;
+      allow create: if isOwner(uid) && uidUnchanged() && validBackup()
+        && request.resource.data.revision == 1 && request.resource.data.createdAt == request.time;
+      allow update: if isOwner(uid) && uidUnchanged() && uidNotModified() && validBackup()
+        && request.resource.data.createdAt == resource.data.createdAt
+        && request.resource.data.revision == resource.data.revision + 1;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -6,7 +6,7 @@ const TTL = 5 * 60 * 1000;
 const FANTASY = 'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons';
 const round = n => Math.round((n + Number.EPSILON) * 100) / 100;
 
-async function json(url, headers = {}) {
+export async function json(url, headers = {}) {
   const key = url + JSON.stringify(headers);
   const hit = cache.get(key);
   if (hit && Date.now() - hit.time < TTL) return hit.promise;
@@ -47,7 +47,7 @@ export function priceHistory(games, player) {
   let price = player.price;
   let season;
   return [...games].sort((a, b) => new Date(a.date) - new Date(b.date)).map(game => {
-    if (season !== game.season) { price = player.price; season = game.season; }
+    season = game.season; // Continuous across seasons; purchase positions never rebase.
     const before = price;
     const baseline = game.baseline;
     const available = Number.isFinite(game.points) && Number.isFinite(baseline);
@@ -58,7 +58,7 @@ export function priceHistory(games, player) {
   });
 }
 
-async function seasonGames(player, season) {
+export async function seasonGames(player, season, options = {}) {
   const log = await json(`${LOG}/athletes/${player.espnId}/gamelog?season=${season}`);
   if (!Array.isArray(log.seasonTypes) || !log.events || typeof log.events !== 'object') {
     throw new Error('The stats provider returned an unexpected game-log format.');
@@ -70,7 +70,7 @@ async function seasonGames(player, season) {
   const filter = JSON.stringify({ players: { filterIds: { value: [Number(player.espnId)] }, filterStatsForSourceIds: { value: [0, 1] }, filterStatsForSplitTypeIds: { value: [1] } } });
   let fantasy;
   try {
-    fantasy = await json(`${FANTASY}/${season}/segments/0/leaguedefaults/3?view=kona_playercard`, { 'x-fantasy-filter': filter });
+    fantasy = options.fantasy || await json(`${FANTASY}/${season}/segments/0/leaguedefaults/3?view=kona_playercard`, { 'x-fantasy-filter': filter });
     if (!Array.isArray(fantasy.players)) throw new Error('Unexpected fantasy response');
   } catch {
     // Game history remains visible; missing ESPN totals/projections are marked explicitly.
@@ -80,6 +80,8 @@ async function seasonGames(player, season) {
   // Limit concurrency; shared box scores are cached across player views.
   for (let i = 0; i < events.length; i += 4) {
     results.push(...await Promise.all(events.slice(i, i + 4).map(async event => {
+      const known = options.known?.find(g => g.id === event.id && g.settlement === 'settled');
+      if (known) return known;
       const payload = await json(`${API}/summary?event=${event.id}`);
       const appearance = hasAppearance(payload, player.espnId);
       const score = readFantasyWeek(fantasy, player.espnId, season, event.week, event.seasonType);
