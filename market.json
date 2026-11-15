@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T19:56:49.543Z",
+  "generatedAt": "2026-11-15T23:54:54.835Z",
   "season": 2026,
   "players": [
     {
@@ -8,8 +8,8 @@
       "name": "Patrick Mahomes",
       "team": "KC",
       "position": "QB",
-      "price": 137.1,
-      "change": -0.85,
+      "price": 148.66,
+      "change": 8.43,
       "trend": [
         5,
         7,
@@ -166,6 +166,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-08T17:53:33.788Z",
           "settledAt": "2026-11-08T21:48:20.194Z"
+        },
+        {
+          "id": "401873058",
+          "season": 2026,
+          "date": "2026-11-15T18:00:00.000+00:00",
+          "week": 10,
+          "matchup": "@ ATL",
+          "result": "W 35-13",
+          "points": 35.42,
+          "baseline": 18.55255168,
+          "before": 137.1,
+          "price": 148.66,
+          "delta": 11.56,
+          "change": 8.43,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
+          "settledAt": "2026-11-15T23:54:54.835Z"
         }
       ],
       "snapshots": {
@@ -195,57 +213,57 @@
         },
         "401873067": {
           "value": 19.49326486,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873082": {
           "value": 17.16209852,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873096": {
-          "value": 14.51909345,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 14.51864079,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
           "value": 17.41552738,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873139": {
           "value": 19.27627942,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
           "value": 16.47333182,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873158": {
           "value": 18.84132058,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873178": {
           "value": 21.39077406,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-08T18:00:00.000+00:00",
+      "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -253,8 +271,8 @@
       "name": "Josh Allen",
       "team": "BUF",
       "position": "QB",
-      "price": 138.93,
-      "change": -3.54,
+      "price": 137.56,
+      "change": -0.99,
       "trend": [
         4,
         5,
@@ -411,6 +429,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-09T18:50:16.802Z",
           "settledAt": "2026-11-10T09:00:28.342Z"
+        },
+        {
+          "id": "401873054",
+          "season": 2026,
+          "date": "2026-11-15T18:00:00.000+00:00",
+          "week": 10,
+          "matchup": "@ NYJ",
+          "result": "W 31-12",
+          "points": 22.34,
+          "baseline": 24.30912098,
+          "before": 138.93,
+          "price": 137.56,
+          "delta": -1.37,
+          "change": -0.99,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
+          "settledAt": "2026-11-15T23:54:54.835Z"
         }
       ],
       "snapshots": {
@@ -434,57 +470,57 @@
         },
         "401873070": {
           "value": 23.70013003,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873082": {
           "value": 19.81090176,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873105": {
           "value": 23.01868677,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873122": {
           "value": 20.68195324,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873126": {
           "value": 22.08994161,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873142": {
           "value": 20.78322076,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873161": {
           "value": 22.80516922,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873181": {
           "value": 25.19579294,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-10T01:15:00.000+00:00",
+      "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -613,49 +649,49 @@
         },
         "401873065": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 10
         },
         "401873068": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873085": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873116": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873128": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873149": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873156": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873183": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -744,7 +780,7 @@
           "projectionSource": "historical-archive"
         }
       ],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -752,8 +788,8 @@
       "name": "Justin Jefferson",
       "team": "MIN",
       "position": "WR",
-      "price": 125.25,
-      "change": -4.76,
+      "price": 124.3,
+      "change": -0.76,
       "trend": [
         3,
         7,
@@ -892,6 +928,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-09T18:50:16.802Z",
           "settledAt": "2026-11-10T09:00:28.342Z"
+        },
+        {
+          "id": "401873060",
+          "season": 2026,
+          "date": "2026-11-15T18:00:00.000+00:00",
+          "week": 10,
+          "matchup": "@ GB",
+          "result": "W 30-10",
+          "points": 16.4,
+          "baseline": 17.91794888,
+          "before": 125.25,
+          "price": 124.3,
+          "delta": -0.95,
+          "change": -0.76,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
+          "settledAt": "2026-11-15T23:54:54.835Z"
         }
       ],
       "snapshots": {
@@ -915,57 +969,57 @@
         },
         "401873077": {
           "value": 17.90161613,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873084": {
           "value": 18.84749716,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873106": {
           "value": 18.69447993,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873109": {
           "value": 19.39210096,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873138": {
-          "value": 18.5611127,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 18.59582558,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873147": {
           "value": 17.97647805,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873163": {
           "value": 19.05676398,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873173": {
           "value": 18.11870853,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-10T01:15:00.000+00:00",
+      "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -1148,55 +1202,55 @@
         },
         "401873064": {
           "value": 22.91066224,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 10
         },
         "401873078": {
           "value": 23.63729865,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873087": {
           "value": 24.89788815,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873097": {
           "value": 22.75986538,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
           "value": 22.94503524,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873129": {
           "value": 24.38398584,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873145": {
           "value": 24.25135051,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873156": {
           "value": 24.23911547,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873174": {
           "value": 22.97467842,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -1204,7 +1258,7 @@
       "complete": true,
       "quoteDate": "2026-11-08T14:30:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -1375,49 +1429,49 @@
         },
         "401873076": {
           "value": 10.89115408,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873080": {
           "value": 14.88546956,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873104": {
           "value": 15.25431895,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873114": {
           "value": 16.41403207,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873125": {
           "value": 11.51638509,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873140": {
           "value": 14.2573173,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
           "value": 10.74729523,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873182": {
           "value": 13.37026329,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -1506,7 +1560,7 @@
           "projectionSource": "historical-archive"
         }
       ],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -1719,43 +1773,43 @@
         },
         "401873073": {
           "value": 22.13857586,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873080": {
           "value": 20.18051875,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873108": {
           "value": 19.22638177,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873136": {
-          "value": 19.50218831,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 19.502484,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873154": {
           "value": 20.27824848,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873165": {
-          "value": 20.14211937,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 20.14217545,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873175": {
           "value": 20.35605473,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -1763,7 +1817,7 @@
       "complete": true,
       "quoteDate": "2026-11-08T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -1771,8 +1825,8 @@
       "name": "Breece Hall",
       "team": "NYJ",
       "position": "RB",
-      "price": 86.78,
-      "change": 0.39,
+      "price": 87.94,
+      "change": 1.34,
       "trend": [
         4,
         5,
@@ -1857,6 +1911,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-08T17:53:33.788Z",
           "settledAt": "2026-11-08T21:48:20.194Z"
+        },
+        {
+          "id": "401873054",
+          "season": 2026,
+          "date": "2026-11-15T18:00:00.000+00:00",
+          "week": 10,
+          "matchup": "vs BUF",
+          "result": "L 31-12",
+          "points": 14.8,
+          "baseline": 12.12557981,
+          "before": 86.78,
+          "price": 87.94,
+          "delta": 1.16,
+          "change": 1.34,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
+          "settledAt": "2026-11-15T23:54:54.835Z"
         }
       ],
       "snapshots": {
@@ -1879,50 +1951,50 @@
           "week": 10
         },
         "401873074": {
-          "value": 13.58329083,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 13.5832646,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873089": {
-          "value": 12.97109602,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 12.97107744,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873112": {
-          "value": 12.3470527,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 12.34695617,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873135": {
-          "value": 13.38979553,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 13.38974793,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873151": {
-          "value": 12.76120876,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 12.76118013,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873163": {
-          "value": 11.58015419,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 11.58015233,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873181": {
-          "value": 11.64411465,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 11.64412097,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-08T18:00:00.000+00:00",
+      "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [
         {
           "id": "401772850",
@@ -2005,7 +2077,7 @@
           "projectionSource": "historical-archive"
         }
       ],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -2188,55 +2260,55 @@
         },
         "401873064": {
           "value": 16.15195468,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 10
         },
         "401873078": {
           "value": 16.69302867,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873087": {
           "value": 17.64223425,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873097": {
           "value": 16.05405506,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
           "value": 16.17042265,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873129": {
           "value": 17.24136053,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873145": {
           "value": 17.15858584,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873156": {
           "value": 17.16680743,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873174": {
           "value": 16.22443415,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -2244,7 +2316,7 @@
       "complete": true,
       "quoteDate": "2026-11-08T14:30:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -2427,49 +2499,49 @@
         },
         "401873077": {
           "value": 13.73064724,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873091": {
           "value": 14.02401786,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873095": {
           "value": 14.31762224,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873120": {
-          "value": 14.30432568,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 14.3045266,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873124": {
           "value": 14.74721032,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
           "value": 14.24846744,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
           "value": 14.28977715,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873184": {
           "value": 14.75984279,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -2477,7 +2549,7 @@
       "complete": true,
       "quoteDate": "2026-11-08T21:25:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -2485,8 +2557,8 @@
       "name": "Travis Kelce",
       "team": "KC",
       "position": "TE",
-      "price": 88.72,
-      "change": 3.37,
+      "price": 85.8,
+      "change": -3.29,
       "trend": [
         9,
         8,
@@ -2643,6 +2715,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-08T17:53:33.788Z",
           "settledAt": "2026-11-08T21:48:20.194Z"
+        },
+        {
+          "id": "401873058",
+          "season": 2026,
+          "date": "2026-11-15T18:00:00.000+00:00",
+          "week": 10,
+          "matchup": "@ ATL",
+          "result": "W 35-13",
+          "points": 5,
+          "baseline": 11.58938951,
+          "before": 88.72,
+          "price": 85.8,
+          "delta": -2.92,
+          "change": -3.29,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
+          "settledAt": "2026-11-15T23:54:54.835Z"
         }
       ],
       "snapshots": {
@@ -2672,57 +2762,57 @@
         },
         "401873067": {
           "value": 11.35471487,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873082": {
           "value": 11.10531698,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873096": {
-          "value": 10.70435791,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 10.70450819,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
           "value": 11.38078796,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873139": {
           "value": 12.03363634,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
           "value": 11.2984893,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873158": {
           "value": 11.30037449,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873178": {
           "value": 12.13671245,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-08T18:00:00.000+00:00",
+      "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -2880,49 +2970,49 @@
         },
         "401873076": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873080": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873104": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873114": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873125": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873140": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873182": {
           "value": 0,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -2930,7 +3020,7 @@
       "complete": true,
       "quoteDate": "2026-10-11T13:30:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     },
     {
@@ -3113,49 +3203,49 @@
         },
         "401873077": {
           "value": 18.60168267,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 11
         },
         "401873091": {
           "value": 18.27598811,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 12
         },
         "401873095": {
           "value": 20.03267893,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 13
         },
         "401873120": {
-          "value": 18.33250697,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "value": 18.33266197,
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 14
         },
         "401873124": {
           "value": 21.7351968,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
           "value": 17.98483187,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
           "value": 20.91725983,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 17
         },
         "401873184": {
           "value": 21.49114458,
-          "capturedAt": "2026-11-15T19:56:49.543Z",
+          "capturedAt": "2026-11-15T23:54:54.835Z",
           "season": 2026,
           "week": 18
         }
@@ -3163,129 +3253,61 @@
       "complete": true,
       "quoteDate": "2026-11-08T21:25:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-15T19:56:49.543Z",
+      "checkedThrough": "2026-11-15T23:54:54.835Z",
       "error": null
     }
   ],
   "schedule": [
     {
-      "id": "401873058",
-      "date": "2026-11-15T18:00Z",
+      "id": "401873062",
+      "date": "2026-11-15T21:05Z",
       "season": 2026,
       "seasonType": "2",
       "week": 10,
       "state": "in",
       "completed": false,
-      "status": "9:27 - 3rd",
+      "status": "1:44 - 4th",
       "teams": [
-        "1",
-        "12"
+        "13",
+        "26"
       ],
-      "matchup": "KC @ ATL",
-      "home": "ATL",
-      "away": "KC"
+      "matchup": "SEA @ LV",
+      "home": "LV",
+      "away": "SEA"
     },
     {
-      "id": "401873056",
-      "date": "2026-11-15T18:00Z",
+      "id": "401873061",
+      "date": "2026-11-15T21:05Z",
       "season": 2026,
       "seasonType": "2",
       "week": 10,
-      "state": "in",
-      "completed": false,
-      "status": "9:33 - 3rd",
+      "state": "post",
+      "completed": true,
+      "status": "Final",
       "teams": [
-        "5",
-        "34"
+        "22",
+        "14"
       ],
-      "matchup": "HOU @ CLE",
-      "home": "CLE",
-      "away": "HOU"
+      "matchup": "LAR @ ARI",
+      "home": "ARI",
+      "away": "LAR"
     },
     {
-      "id": "401873060",
-      "date": "2026-11-15T18:00Z",
+      "id": "401873063",
+      "date": "2026-11-15T21:25Z",
       "season": 2026,
       "seasonType": "2",
       "week": 10,
       "state": "in",
       "completed": false,
-      "status": "9:57 - 3rd",
+      "status": "11:26 - 4th",
       "teams": [
-        "9",
-        "16"
+        "6",
+        "25"
       ],
-      "matchup": "MIN @ GB",
-      "home": "GB",
-      "away": "MIN"
-    },
-    {
-      "id": "401873057",
-      "date": "2026-11-15T18:00Z",
-      "season": 2026,
-      "seasonType": "2",
-      "week": 10,
-      "state": "in",
-      "completed": false,
-      "status": "12:35 - 3rd",
-      "teams": [
-        "10",
-        "30"
-      ],
-      "matchup": "JAX @ TEN",
-      "home": "TEN",
-      "away": "JAX"
-    },
-    {
-      "id": "401873059",
-      "date": "2026-11-15T18:00Z",
-      "season": 2026,
-      "seasonType": "2",
-      "week": 10,
-      "state": "in",
-      "completed": false,
-      "status": "11:26 - 3rd",
-      "teams": [
-        "11",
-        "15"
-      ],
-      "matchup": "MIA @ IND",
-      "home": "IND",
-      "away": "MIA"
-    },
-    {
-      "id": "401873055",
-      "date": "2026-11-15T18:00Z",
-      "season": 2026,
-      "seasonType": "2",
-      "week": 10,
-      "state": "in",
-      "completed": false,
-      "status": "7:51 - 3rd",
-      "teams": [
-        "18",
-        "29"
-      ],
-      "matchup": "CAR @ NO",
-      "home": "NO",
-      "away": "CAR"
-    },
-    {
-      "id": "401873054",
-      "date": "2026-11-15T18:00Z",
-      "season": 2026,
-      "seasonType": "2",
-      "week": 10,
-      "state": "in",
-      "completed": false,
-      "status": "10:05 - 3rd",
-      "teams": [
-        "20",
-        "2"
-      ],
-      "matchup": "BUF @ NYJ",
-      "home": "NYJ",
-      "away": "BUF"
+      "matchup": "SF @ DAL",
+      "home": "DAL",
+      "away": "SF"
     },
     {
       "id": "401873053",
@@ -3305,55 +3327,123 @@
       "away": "NE"
     },
     {
-      "id": "401873062",
-      "date": "2026-11-15T21:05Z",
+      "id": "401873058",
+      "date": "2026-11-15T18:00Z",
       "season": 2026,
       "seasonType": "2",
       "week": 10,
-      "state": "pre",
-      "completed": false,
-      "status": "11/15 - 4:05 PM EST",
+      "state": "post",
+      "completed": true,
+      "status": "Final",
       "teams": [
-        "13",
-        "26"
+        "1",
+        "12"
       ],
-      "matchup": "SEA @ LV",
-      "home": "LV",
-      "away": "SEA"
+      "matchup": "KC @ ATL",
+      "home": "ATL",
+      "away": "KC"
     },
     {
-      "id": "401873061",
-      "date": "2026-11-15T21:05Z",
+      "id": "401873056",
+      "date": "2026-11-15T18:00Z",
       "season": 2026,
       "seasonType": "2",
       "week": 10,
-      "state": "pre",
-      "completed": false,
-      "status": "11/15 - 4:05 PM EST",
+      "state": "post",
+      "completed": true,
+      "status": "Final",
       "teams": [
-        "22",
-        "14"
+        "5",
+        "34"
       ],
-      "matchup": "LAR @ ARI",
-      "home": "ARI",
-      "away": "LAR"
+      "matchup": "HOU @ CLE",
+      "home": "CLE",
+      "away": "HOU"
     },
     {
-      "id": "401873063",
-      "date": "2026-11-15T21:25Z",
+      "id": "401873060",
+      "date": "2026-11-15T18:00Z",
       "season": 2026,
       "seasonType": "2",
       "week": 10,
-      "state": "pre",
-      "completed": false,
-      "status": "11/15 - 4:25 PM EST",
+      "state": "post",
+      "completed": true,
+      "status": "Final",
       "teams": [
-        "6",
-        "25"
+        "9",
+        "16"
       ],
-      "matchup": "SF @ DAL",
-      "home": "DAL",
-      "away": "SF"
+      "matchup": "MIN @ GB",
+      "home": "GB",
+      "away": "MIN"
+    },
+    {
+      "id": "401873057",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "10",
+        "30"
+      ],
+      "matchup": "JAX @ TEN",
+      "home": "TEN",
+      "away": "JAX"
+    },
+    {
+      "id": "401873059",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "11",
+        "15"
+      ],
+      "matchup": "MIA @ IND",
+      "home": "IND",
+      "away": "MIA"
+    },
+    {
+      "id": "401873055",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "18",
+        "29"
+      ],
+      "matchup": "CAR @ NO",
+      "home": "NO",
+      "away": "CAR"
+    },
+    {
+      "id": "401873054",
+      "date": "2026-11-15T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 10,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "20",
+        "2"
+      ],
+      "matchup": "BUF @ NYJ",
+      "home": "NYJ",
+      "away": "BUF"
     },
     {
       "id": "401873064",
