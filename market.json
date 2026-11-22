@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T14:52:55.370Z",
+  "generatedAt": "2026-11-22T20:56:15.459Z",
   "season": 2026,
   "players": [
     {
@@ -8,8 +8,8 @@
       "name": "Patrick Mahomes",
       "team": "KC",
       "position": "QB",
-      "price": 148.66,
-      "change": 8.43,
+      "price": 151.03,
+      "change": 1.59,
       "trend": [
         5,
         7,
@@ -184,6 +184,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
           "settledAt": "2026-11-15T23:54:54.835Z"
+        },
+        {
+          "id": "401873067",
+          "season": 2026,
+          "date": "2026-11-22T18:00:00.000+00:00",
+          "week": 11,
+          "matchup": "vs ARI",
+          "result": "W 34-7",
+          "points": 24.96,
+          "baseline": 21.77754425,
+          "before": 148.66,
+          "price": 151.03,
+          "delta": 2.37,
+          "change": 1.59,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-22T14:52:55.370Z",
+          "settledAt": "2026-11-22T20:56:15.459Z"
         }
       ],
       "snapshots": {
@@ -218,52 +236,52 @@
           "week": 11
         },
         "401873082": {
-          "value": 18.119754,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 18.11976058,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873096": {
-          "value": 15.26990061,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 15.25767596,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
-          "value": 18.0431688,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 18.03884503,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873139": {
           "value": 20.86171857,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
-          "value": 18.69385313,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 18.69507121,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873158": {
           "value": 19.27376432,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873178": {
           "value": 23.27610538,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-15T18:00:00.000+00:00",
+      "quoteDate": "2026-11-22T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -476,43 +494,43 @@
         },
         "401873082": {
           "value": 19.16703475,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873105": {
           "value": 23.55654373,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873122": {
           "value": 21.29665087,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873126": {
           "value": 21.98560235,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873142": {
-          "value": 20.68593227,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.68626211,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873161": {
           "value": 22.5072991,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873181": {
-          "value": 25.2720356,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 25.26059794,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -520,7 +538,7 @@
       "complete": true,
       "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -661,37 +679,37 @@
         },
         "401873085": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873116": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873128": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873149": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873156": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873183": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -780,7 +798,7 @@
           "projectionSource": "historical-archive"
         }
       ],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -968,50 +986,50 @@
           "week": 10
         },
         "401873077": {
-          "value": 19.96090567,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 19.96479957,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 11
         },
         "401873084": {
           "value": 20.42306805,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873106": {
-          "value": 19.7501059,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 19.74958542,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873109": {
-          "value": 20.27476203,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.27480605,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873138": {
           "value": 19.68251681,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873147": {
-          "value": 19.73202308,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 19.73202061,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873163": {
-          "value": 20.15302066,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.15540769,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873173": {
           "value": 19.36318807,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -1019,7 +1037,7 @@
       "complete": true,
       "quoteDate": "2026-11-15T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -1225,50 +1243,50 @@
           "week": 10
         },
         "401873078": {
-          "value": 25.41245933,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 25.37328908,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 11
         },
         "401873087": {
           "value": 25.93925214,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873097": {
           "value": 24.05403495,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
           "value": 23.86900318,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873129": {
-          "value": 25.43786934,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 25.43723964,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873145": {
-          "value": 25.19414279,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 25.19416303,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873156": {
           "value": 25.4028037,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873174": {
           "value": 24.24466089,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -1276,7 +1294,7 @@
       "complete": true,
       "quoteDate": "2026-11-16T01:20:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -1452,44 +1470,44 @@
           "week": 11
         },
         "401873080": {
-          "value": 16.76927292,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 16.84820358,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873104": {
-          "value": 15.94828772,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 16.02635482,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873114": {
-          "value": 15.65900836,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 15.73656452,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873125": {
-          "value": 10.75640756,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 10.84191317,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873140": {
-          "value": 14.28034459,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 14.3602627,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
-          "value": 11.46363715,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 11.549871,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873182": {
-          "value": 13.24284207,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.32721132,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -1578,7 +1596,7 @@
           "projectionSource": "historical-archive"
         }
       ],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -1814,38 +1832,38 @@
           "week": 11
         },
         "401873080": {
-          "value": 20.19555382,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.16433907,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873108": {
-          "value": 18.71454284,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 18.67421234,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873136": {
-          "value": 19.17292053,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 19.12558796,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873154": {
-          "value": 20.44505114,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.40468351,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873165": {
-          "value": 20.44423226,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.40900558,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873175": {
-          "value": 20.77286436,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.73271204,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -1853,7 +1871,7 @@
       "complete": true,
       "quoteDate": "2026-11-15T21:25:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -1987,44 +2005,44 @@
           "week": 10
         },
         "401873074": {
-          "value": 13.07234753,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.07875837,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 11
         },
         "401873089": {
           "value": 13.12798869,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873112": {
-          "value": 12.43949175,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 12.4388093,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873135": {
-          "value": 13.90586128,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.90536953,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873151": {
-          "value": 13.97013205,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.97004014,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873163": {
-          "value": 11.41794006,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 11.41789016,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873181": {
           "value": 11.82460333,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -2113,7 +2131,7 @@
           "projectionSource": "historical-archive"
         }
       ],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -2319,50 +2337,50 @@
           "week": 10
         },
         "401873078": {
-          "value": 16.76991318,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 16.73956776,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 11
         },
         "401873087": {
           "value": 17.18037106,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873097": {
           "value": 15.80253024,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
           "value": 15.66346707,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873129": {
-          "value": 16.76601763,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 16.7656019,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873145": {
           "value": 16.63972804,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873156": {
           "value": 16.80752165,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873174": {
           "value": 15.94818819,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -2370,7 +2388,7 @@
       "complete": true,
       "quoteDate": "2026-11-16T01:20:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -2571,49 +2589,49 @@
         },
         "401873077": {
           "value": 13.05679354,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 11
         },
         "401873091": {
           "value": 13.06578039,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873095": {
-          "value": 13.69040949,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.69434216,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873120": {
-          "value": 13.51755405,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.51167354,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873124": {
           "value": 13.93533364,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
           "value": 13.31363909,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
-          "value": 13.45486734,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 13.46065403,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873184": {
-          "value": 14.09489595,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 14.09386136,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -2621,7 +2639,7 @@
       "complete": true,
       "quoteDate": "2026-11-15T21:25:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -2629,8 +2647,8 @@
       "name": "Travis Kelce",
       "team": "KC",
       "position": "TE",
-      "price": 85.8,
-      "change": -3.29,
+      "price": 91.83,
+      "change": 7.03,
       "trend": [
         9,
         8,
@@ -2805,6 +2823,24 @@
           "projectionSource": "pregame",
           "projectionCapturedAt": "2026-11-15T14:34:49.634Z",
           "settledAt": "2026-11-15T23:54:54.835Z"
+        },
+        {
+          "id": "401873067",
+          "season": 2026,
+          "date": "2026-11-22T18:00:00.000+00:00",
+          "week": 11,
+          "matchup": "vs ARI",
+          "result": "W 34-7",
+          "points": 25.4,
+          "baseline": 11.33707873,
+          "before": 85.8,
+          "price": 91.83,
+          "delta": 6.03,
+          "change": 7.03,
+          "settlement": "settled",
+          "projectionSource": "pregame",
+          "projectionCapturedAt": "2026-11-22T14:52:55.370Z",
+          "settledAt": "2026-11-22T20:56:15.459Z"
         }
       ],
       "snapshots": {
@@ -2840,51 +2876,51 @@
         },
         "401873082": {
           "value": 10.85755285,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873096": {
-          "value": 10.47389651,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 10.46943541,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873119": {
-          "value": 11.00225975,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 11.00184919,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873139": {
           "value": 11.47219256,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
-          "value": 11.31108265,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 11.31336159,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873158": {
           "value": 11.04635712,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873178": {
           "value": 12.18363534,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
       },
       "complete": true,
-      "quoteDate": "2026-11-15T18:00:00.000+00:00",
+      "quoteDate": "2026-11-22T18:00:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -3048,43 +3084,43 @@
         },
         "401873080": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873104": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873114": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873125": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873140": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873182": {
           "value": 0,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -3092,7 +3128,7 @@
       "complete": true,
       "quoteDate": "2026-10-11T13:30:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     },
     {
@@ -3293,49 +3329,49 @@
         },
         "401873077": {
           "value": 19.81290389,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 11
         },
         "401873091": {
           "value": 18.4535595,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 12
         },
         "401873095": {
-          "value": 20.67637195,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 20.68023165,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 13
         },
         "401873120": {
-          "value": 18.63955724,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 18.63473497,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 14
         },
         "401873124": {
           "value": 21.35849181,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 15
         },
         "401873153": {
           "value": 18.2623782,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 16
         },
         "401873170": {
-          "value": 21.55141555,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 21.55613908,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 17
         },
         "401873184": {
-          "value": 22.68001959,
-          "capturedAt": "2026-11-22T14:52:55.370Z",
+          "value": 22.67917312,
+          "capturedAt": "2026-11-22T20:56:15.459Z",
           "season": 2026,
           "week": 18
         }
@@ -3343,7 +3379,7 @@
       "complete": true,
       "quoteDate": "2026-11-15T21:25:00.000+00:00",
       "archive": [],
-      "checkedThrough": "2026-11-22T14:52:55.370Z",
+      "checkedThrough": "2026-11-22T20:56:15.459Z",
       "error": null
     }
   ],
@@ -3354,9 +3390,9 @@
       "season": 2026,
       "seasonType": "2",
       "week": 11,
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "status": "11/22 - 1:00 PM EST",
+      "status": "1:57 - 4th",
       "teams": [
         "2",
         "15"
@@ -3371,9 +3407,9 @@
       "season": 2026,
       "seasonType": "2",
       "week": 11,
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "status": "11/22 - 1:00 PM EST",
+      "status": "3:08 - 4th",
       "teams": [
         "3",
         "18"
@@ -3388,9 +3424,9 @@
       "season": 2026,
       "seasonType": "2",
       "week": 11,
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "status": "11/22 - 1:00 PM EST",
+      "status": "2:00 - 4th",
       "teams": [
         "6",
         "10"
@@ -3405,9 +3441,9 @@
       "season": 2026,
       "seasonType": "2",
       "week": 11,
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "status": "11/22 - 1:00 PM EST",
+      "status": "2:00 - 4th",
       "teams": [
         "8",
         "27"
@@ -3417,31 +3453,14 @@
       "away": "TB"
     },
     {
-      "id": "401873067",
-      "date": "2026-11-22T18:00Z",
-      "season": 2026,
-      "seasonType": "2",
-      "week": 11,
-      "state": "pre",
-      "completed": false,
-      "status": "11/22 - 1:00 PM EST",
-      "teams": [
-        "12",
-        "22"
-      ],
-      "matchup": "ARI @ KC",
-      "home": "KC",
-      "away": "ARI"
-    },
-    {
       "id": "401873076",
       "date": "2026-11-22T18:00Z",
       "season": 2026,
       "seasonType": "2",
       "week": 11,
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "status": "11/22 - 1:00 PM EST",
+      "status": "2:04 - 4th",
       "teams": [
         "21",
         "23"
@@ -3456,9 +3475,9 @@
       "season": 2026,
       "seasonType": "2",
       "week": 11,
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "status": "11/22 - 1:00 PM EST",
+      "status": "6:32 - 4th",
       "teams": [
         "29",
         "33"
@@ -3466,6 +3485,23 @@
       "matchup": "BAL @ CAR",
       "home": "CAR",
       "away": "BAL"
+    },
+    {
+      "id": "401873067",
+      "date": "2026-11-22T18:00Z",
+      "season": 2026,
+      "seasonType": "2",
+      "week": 11,
+      "state": "post",
+      "completed": true,
+      "status": "Final",
+      "teams": [
+        "12",
+        "22"
+      ],
+      "matchup": "ARI @ KC",
+      "home": "KC",
+      "away": "ARI"
     },
     {
       "id": "401873074",
